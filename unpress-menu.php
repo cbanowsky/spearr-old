@@ -74,8 +74,7 @@ global $woocommerce;
 					}
 					?>
 					<a class="navbar-brand align-center" href="<?php echo home_url( '/' ); ?>">
-					SPEARR
-                    	<!-- <img width="" height="" src="<?php echo $site_logo; ?>" alt="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>" title="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>"/> -->
+                    	<img width="" height="" src="<?php echo $site_logo; ?>" alt="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>" title="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>"/>
                     </a>
 				</div><!-- .navbar-header -->
 				<div class="text-center animated">
