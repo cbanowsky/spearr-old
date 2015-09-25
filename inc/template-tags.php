@@ -19,7 +19,7 @@ function unpress_masonry_image(){
 	if ( has_post_thumbnail() ): ?>
         <a class="overlay" href="<?php the_permalink(); ?>">
             <span class="hover">
-                <span class="hover-btn"><i class="fa fa-angle-right"></i></span>
+                <span class="hover-btn">VIEW MORE</span>
             </span><!-- .hover -->
             <?php the_post_thumbnail("masonry-size"); ?>
         </a><!-- .overlay -->
