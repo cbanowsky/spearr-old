@@ -203,9 +203,9 @@ a, .navbar-nav a, .secondary-nav .nav .open>a, .secondary-nav .nav .open>a:hover
 	background: none !important;
 }
 .container .post a.hover-btn:hover {
-	background: #fff !important;
-	background-color: #fff !important;
-	color: #fff !important;
+	background: #ccc !important;
+	background-color: #ccc !important;
+	color: #ccc !important;
 }
 /* =============================================
 
