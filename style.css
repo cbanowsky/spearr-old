@@ -321,6 +321,9 @@ h3 {
 	font-size: 20px;
 	line-height: 30px;
 }
+h3 > a:hover {
+	color: #ccc;
+}
 h4 {
 	font-size: 18px;
 	line-height: 28px;
@@ -844,10 +847,6 @@ Post
 }
 .post-content-holder h3 a, .post-author a {
 	text-decoration: none;
-}
-.post-content-holder h3 a:hover, .post-author a:hover {
-	text-decoration: none;
-	color: #ccc;
 }
 .post-author {
 	font-style: italic;
