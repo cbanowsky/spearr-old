@@ -791,6 +791,7 @@ Post
 	padding: 25px;
 	border: 1px solid #000;
 	color: black;
+	margin-left: 33.33%;
 }
 .overlay:hover .hover-btn {
 	top: 43%;
