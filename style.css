@@ -224,6 +224,7 @@ body {
 }
 a:hover {
 	text-decoration: none;
+	color: #ccc;
 }
 #header {
 	margin-bottom: 4px;
