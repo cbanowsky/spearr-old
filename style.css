@@ -845,6 +845,10 @@ Post
 .post-content-holder h3 a, .post-author a {
 	text-decoration: none;
 }
+.post-content-holder h3 a, .post-author a:hover {
+	text-decoration: none;
+	color: #ccc;
+}
 .post-author {
 	font-style: italic;
 	font-size: 12px;
