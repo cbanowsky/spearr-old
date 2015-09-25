@@ -88,7 +88,7 @@
                                                         <?php the_excerpt(); ?>
                                                     </div><!-- .post-entry-holder hidden-md hidden-sm hidden-sm-->
                                                     <?php endif; ?>
-                                                    <a href="<?php the_permalink(); ?>" class="hover-btn">VIEW MORE</i></a>
+                                                    <a href="<?php the_permalink(); ?>" class="hover-btn">VIEW MORE</a>
                                                 </div>
                                             </div>
                                         </div><!-- .hover -->
