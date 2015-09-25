@@ -74,7 +74,7 @@ global $woocommerce;
 					}
 					?>
 					<a class="navbar-brand align-center" href="<?php echo home_url( '/' ); ?>">
-                    	<img width="" height="" src="<?php echo $site_logo; ?>" alt="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>" title="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>"/>
+                    	<img width="50" height="50" src="<?php echo $site_logo; ?>" alt="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>" title="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>"/>
                     </a>
 				</div><!-- .navbar-header -->
 				<div class="text-center animated">
