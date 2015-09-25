@@ -845,7 +845,7 @@ Post
 .post-content-holder h3 a, .post-author a {
 	text-decoration: none;
 }
-.post-content-holder h3 a, .post-author a:hover {
+.post-content-holder h3 a:hover, .post-author a:hover {
 	text-decoration: none;
 	color: #ccc;
 }
