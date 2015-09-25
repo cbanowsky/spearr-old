@@ -1,0 +1,28 @@
+.post-category a:hover, .post a:hover, .btn-icon:hover, .comment-reply-link:hover, .tags-wrap a:hover, .tags a:hover, a.read-more:hover, .share-page a:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus, #today, #footer .tagcloud a:hover, .form-submit #submit, .home-rotator-navigation #prev, .home-rotator-navigation #next, .ei-slider-thumbs li.ei-slider-element, .image-holder .hover, .dropdown-menu>li>a:hover, .secondary-nav .nav a:hover,  .secondary-nav .nav a:focus, .homepage-gallery-carousel-arrows > a:hover, .homepage-interviews-carousel-arrows > a:hover, .related-video-carousel-arrows > a:hover, .tag-holder a:hover, .newsletter-subscribe button[type="submit"]:hover, .pagination>li>a:hover, .pagination>li>span:hover,  .pagination>li>a:focus, .pagination>li>span:focus, .page-numbers.current  {
+	background: #CF2072 !important;
+}
+.read-more {
+	color: #CF2072;
+}
+a:hover, .category-box p a:hover, .footer-2-wrapper a:hover, .footer-1-wrapper .widget-content a:hover, .nav-social a:hover, .navbar-nav a.dropdown-post-title:hover, .post-content-holder h3 a:hover, .post-author a:hover, .blocks .hover-btn:hover i, .post a, .post-category a, .post-meta a:hover, .archive-video .post .post-title a:hover, .overlay .hover-btn:hover i, .sub-links a:hover, #footer a:hover, .navbar-nav .menu-item a:hover {
+	color: #CF2072;
+	text-decoration: none;
+	background: none;
+}
+a:hover .gallery-carousel-slide-title, .interview-slide-wrap:hover .interviews-carousel-slide-title , .video-slide-wrap:hover .videos-carousel-slide-title, .gallery-slide-wrap:hover .galleries-carousel-slide-title, .latest-post-gallery-carousel-prev:hover, .latest-post-gallery-carousel-next:hover, .latest-interviews-carousel-prev:hover, .latest-interviews-carousel-next:hover, .featured-post-gallery-carousel-prev:hover, .featured-post-gallery-carousel-next:hover, #footer .latest-post-gallery-carousel-prev:hover, #footer .latest-post-gallery-carousel-next:hover, #footer .latest-interviews-carousel-prev:hover, #footer .latest-interviews-carousel-next:hover, #footer .featured-post-gallery-carousel-prev:hover, #footer .featured-post-gallery-carousel-next:hover, #galleries-carousel-prev:hover, #galleries-carousel-next:hover, .home-rotator-navigation #prev:hover, .home-rotator-navigation #next:hover {
+	background: #CF2072;
+}
+.newsletter-subscribe button[type="submit"]:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus,  .pagination>li>span:focus, .page-numbers.current {
+	border: 1px solid #CF2072;
+}
+::selection {
+	background: #CF2072;
+	color: #fff;
+}
+::-moz-selection {
+	background: #CF2072;
+	color: #fff;
+}
+#isotope-filter li.active a {
+	box-shadow: inset 0px -5px 0px #CF2072;
+}

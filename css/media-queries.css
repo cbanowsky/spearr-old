@@ -1,0 +1,656 @@
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ! Large desktop
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+@media (min-width: 1200px) {
+.container {
+	max-width: 1280px;
+	width: auto;
+}
+/* Interviews ========================================================= */
+.latest-interviews-carousel .list-unstyled > li {
+	max-width: 290px !important;
+}
+.latest-post-carousel .gallery-carousel-slide-image {
+	
+}
+#footer-first .latest-post-carousel .gallery-carousel-slide-image, #footer-first .latest-interviews-carousel .list-unstyled > li {
+	max-width: 100% !important;
+}
+/* Galleries ========================================================== */
+.gallery-slide-wrap, #related-video-carousel .video-slide-wrap {
+	height: 390px;
+}
+/* Category =========================================================== */
+.module.mosaic .post-content-holder h3 {
+	font-size: 16px;
+	line-height: 22px;
+}
+#related-gallery-carousel {
+	height: 453px;
+}
+#related-video-carousel {
+	height: 377px;
+}
+.latest-post-carousel, .latest-interviews-carousel {
+	
+}
+}
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ! Medium desktop
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+@media (min-width: 992px) and (max-width: 1199px) {
+/* Category =========================================================== */
+.category-box h2 {
+	font: 100 36px/48px "Lato", Helvetica, Arial, sans-serif;
+	letter-spacing: -3px;
+}
+.post-content-holder h3, .module.mosaic .post-content-holder h3 {
+	font-size: 16px;
+	line-height: 22px;
+}
+/* Galleries ========================================================== */
+.gallery-slide-wrap, #related-video-carousel .video-slide-wrap {
+	height: 310px;
+}
+/* Interviews ========================================================= */
+.latest-interviews-carousel .list-unstyled > li {
+	max-width: 213px;
+}
+.latest-post-carousel .gallery-carousel-slide-image {
+	
+}
+#footer-first .latest-post-carousel .gallery-carousel-slide-image, #footer-first .latest-interviews-carousel .list-unstyled > li {
+	max-width: 100% !important;
+}
+/* Isotope ============================================================ */
+#isotope-filter li:first-of-type, #isotope-filter a {
+	padding: 15px;
+	font-size: 20px;
+}
+/* iosSlider ========================================================== */
+.iosSlider .slider .item {
+	width: 970px;
+}
+#home-rotator-container {
+	height: 529px;
+}
+.flexslider .text-external-wrap, .slides .item .inner, .ei-slider {
+	height: 438px;
+}
+#related-gallery-carousel, #related-video-carousel {
+	height: 373px;
+}
+.latest-post-carousel, .latest-interviews-carousel {
+	
+}
+}
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ! Mini Desktop
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+@media (min-width: 768px) and (max-width: 991px) {
+/* Header ============================================================= */
+.navbar-header {
+	float: none;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.navbar-brand img {
+	width: auto;
+	max-height: 30px;
+}
+.navbar-brand {
+	float: none;
+}
+.navbar-form {
+	position: absolute;
+	top: -10px;
+	right: 15px;
+}
+.navbar-collapse {
+	border-top: 1px dotted #b4b4b4;
+	margin-top: 20px;
+}
+.navbar-nav {
+	height: 55px;
+}
+.navbar-nav>li>a {
+	padding-top: 22px;
+	padding-bottom: 21px;
+	line-height: 21px;
+}
+.primary-nav.yamm .navbar-collapse.collapse {
+	display: none !important;
+}
+.nav-social {
+	margin: 10px 0;
+}
+/* Galleries ========================================================== */
+.gallery-slide-wrap, #related-video-carousel .video-slide-wrap {
+	height: 240px;
+}
+/* Category titles ==================================================== */
+.category-box h2 {
+	font: 100 36px/48px "Lato", Helvetica, Arial, sans-serif;
+	letter-spacing: -3px;
+}
+.post-content-holder h3, .module.mosaic .post-content-holder h3 {
+	font-size: 16px;
+	line-height: 22px;
+}
+/* Footer ============================================================= */
+.col-sm-6 .footer-wdget-area-1, .col-sm-6 .footer-wdget-area-2 {
+	text-align: center;
+}
+.col-sm-12 .newsletter-subscribe, .col-sm-12 .footer-social-icons {
+	text-align: center;
+	margin-top: 50px;
+}
+#footer .widget {
+	border: none;
+	padding: 0;
+	margin: 50px 0;
+}
+#footer-second {
+	border-left: none;
+	border-right: none;
+}
+/* Sidebar ============================================================ */
+.latest-interviews-carousel .list-unstyled > li {
+	max-width: 303px;
+}
+#footer-first .latest-post-carousel .gallery-carousel-slide-image, #footer-first .latest-interviews-carousel .list-unstyled > li {
+	max-width: 100% !important;
+}
+/* Isotope ============================================================ */
+#isotope-filter li:first-of-type, #isotope-filter a {
+	padding: 10px;
+	font-size: 15px;
+}
+#archive-list .videos-slide-sub-title {
+	font-size: 14px;
+}
+/* Article navigation ================================================= */
+.article_nav {
+	margin: 30px 0 20px;
+}
+.article_nav, .component_next-previous-articles {
+	width: 89px;
+	float: none;
+}
+.component_next-article, .component_previous-article {
+	float: right;
+}
+.component_previous-article {
+	border-right: 0;
+}
+.component_next-article .next-article_wrapper .next-article_details, .component_previous-article .next-article_wrapper .next-article_details, .component_next-article .previous-article_wrapper .next-article_details, .component_previous-article .previous-article_wrapper .next-article_details, .component_next-article .next-article_wrapper .previous-article_details, .component_previous-article .next-article_wrapper .previous-article_details, .component_next-article .previous-article_wrapper .previous-article_details, .component_previous-article .previous-article_wrapper .previous-article_details {
+	display: none;
+}
+.component_next-previous-articles .component_previous-article {
+	border-top: 1px solid #000;
+}
+/* Post author ======================================================== */
+.post-author-wrap {
+	border-bottom: 1px solid #b4b4b4;
+}
+/* iosSlider ========================================================== */
+.iosSlider .slider .item {
+	width: 750px;
+}
+#home-rotator-container {
+	height: 405px;
+}
+.home-rotator-navigation #prev, .home-rotator-navigation #next {
+	top: 180px;
+}
+.flexslider .text-external-wrap, .slides .item .inner, .ei-slider {
+	height: 405px;
+}
+.ei-slider {
+	padding: 0 0 40px;
+}
+#related-gallery-carousel, #related-video-carousel {
+	height: 303px;
+	margin-top: 50px;
+}
+.videos-carousel-slide-title {
+	top: 137px;
+}
+.video-slide-wrap:hover .videos-carousel-slide-title, .gallery-slide-wrap:hover .galleries-carousel-slide-title {
+	height: 190px !important;
+}
+
+}
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ! Landscape phone to portrait tablet
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+@media (max-width: 767px) {
+/* Header ============================================================= */
+.navbar-brand {
+	margin-top: 10px !important;
+}
+.navbar-brand {
+	margin-bottom: 11px;
+	margin-left: 15px;
+	height: auto;
+}
+
+.navbar-brand img {
+	width: auto;
+	max-height: 30px;
+}
+.navbar-toggle {
+	color: #fff;
+	margin: 0;
+	border-radius: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid #000;
+	margin: 10px;
+}
+.navbar-toggle .icon-bar {
+	border: 1px solid #000;
+}
+.navbar-collapse {
+	padding: 0;
+	overflow: hidden;
+}
+.navbar-nav {
+	padding: 0;
+}
+.navbar-nav .dropdown.open {
+	background: #000;
+}
+.navbar-nav a.dropdown-post-title {
+	margin: 10px 0 30px;
+}
+.navbar-nav {
+	width: 100%;
+}
+.nav-social {
+	margin: 10px 0;
+	text-align: center;
+}
+.primary-nav.yamm .navbar-collapse.collapse {
+	display: none !important;
+}
+.page-nav {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: left;
+}
+.secondary-nav {
+	text-align: center;
+}
+.navbar-search {
+	margin: 10px 0 0;
+	border-top: 1px solid #e4e4e4;
+}
+.navbar-search button[type="submit"] {
+	display: none;
+}
+.navbar-search input[type="text"] {
+	position: relative;
+	top: auto;
+	right: auto;
+	max-width: 100%;
+}
+.navbar-search input[type="text"]:focus {
+	background: transparent;
+	border: 1px dotted #e4e4e4;
+	max-width: 100%;
+}
+.navbar-search .form-group {
+	margin-bottom: 0;
+}
+.navbar-nav>li>a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 20px;
+	border-top: 1px solid #e4e4e4;
+}
+.navbar-toggle {
+	top: 0;
+}
+#footer .navbar-search {
+	border-top: none;
+	border-bottom: none;
+}
+#footer .navbar-form {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#footer .widget_search .navbar-search button[type="submit"] {
+	float: right;
+	color: #fff;
+	display: inline-block;
+	margin-top: -43px;
+	margin-right: 10px;
+}
+.widget_search .navbar-search button[type="submit"] {
+	margin-top: -35px;
+}
+.widget_search .navbar-search .form-group {
+	position: relative;
+	width: 90%;
+}
+/* Homepage Gallery Carousel ========================================== */
+#homepage-gallery-carousel-navigation-wrapper {
+	width: 100%;
+	height: 357px;
+}
+#homepage-gallery-carousel .cycle-slideshow {
+	margin-left: 0;
+}
+#homepage-gallery-carousel {
+	height: 383px;
+}
+#homepage-gallery-carousel .caroufredsel_wrapper[style] {
+	position: absolute !important;
+	left: 0 !important;
+	top: 61px !important;
+	width: 100% !important;
+}
+/* Footer ============================================================= */
+#footer {
+}
+#footer .widget {
+	border: none;
+	padding: 0;
+	margin: 50px 0;
+}
+#footer .form-group, .newsletter-subscribe button[type="submit"] {
+	margin-bottom: 10px;
+}
+.newsletter-subscribe button[type="submit"] {
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+#footer .newsletter-subscribe {
+	margin-bottom: 50px;
+}
+.footer-2-wrapper {
+	text-align: center;
+}
+.footer-2-wrapper .pull-right, .footer-2-wrapper .pull-left {
+	float: none !important;
+}
+#footer-second {
+	border-left: none;
+	border-right: none;
+}
+/* Isotope ============================================================ */
+#isotope-filter li:first-of-type, #isotope-filter a {
+	padding: 10px;
+	font-size: 15px;
+}
+/* Category box ======================================================= */
+.category-box {
+	margin: 0 0 30px;
+}
+.category-box.fixed {
+	position: relative;
+	margin: 0 0 30px;
+}
+.category-box.fixed[style] {
+	top: auto !important;
+	left: auto !important;
+}
+/* iosSlider ========================================================== */
+.item {
+	width: 462px;
+}
+#home-rotator-container {
+	height: 243px;
+}
+.item .inner .text1 {
+	margin: 0 50px;
+}
+.home-rotator-navigation #prev, .home-rotator-navigation #next {
+	top: 95px;
+}
+.item .inner .text1 span.post-title-name, .ei-title h2 {
+	font-size: 18px;
+	line-height: 24px;
+}
+.flexslider .text-external-wrap, .slides .item .inner, .ei-slider {
+	height: 243px;
+}
+.ei-slider {
+	padding: 0 0 40px;
+}
+.flex-direction-nav a:before {
+	font-size: 16px;
+	left: 3px;
+	top: -4px;
+}
+.flex-direction-nav a.flex-next:before {
+	content: '\f002';
+	left: -3px;
+}
+.flex-direction-nav a {
+	margin: -20px 0 0;
+	padding: 10px;
+}
+.flexslider .item .inner .text1 {
+	margin: 0 70px;
+}
+#footer-first .latest-post-carousel .gallery-carousel-slide-image, #footer-first .latest-interviews-carousel .list-unstyled > li {
+	max-width: 100% !important;
+}
+.title-box-left, .title-box-right {
+	float: none;
+}
+#single-galleries-carousel .caroufredsel_wrapper[style] {
+	height: 500px !important;
+}
+#related-gallery-carousel {
+	height: 481px;
+}
+#related-video-carousel {
+	height: 376px;
+}
+.video-slide-wrap:hover .videos-carousel-slide-title, .gallery-slide-wrap:hover .galleries-carousel-slide-title {
+	height: 290px !important;
+}
+/* Article navigation ================================================= */
+.article_nav, .component_next-previous-articles {
+	float: none;
+	border-top: none;
+}
+.single-gallery-article_nav {
+	margin: 0 auto 60px;
+	padding: 50px 0;
+	border-bottom: 1px solid #b4b4b4;
+}
+/* Post author ========================================================== */
+.post-author-wrap {
+	border-bottom: 1px solid #b4b4b4;
+}
+/* OWL Slider ========================================================== */
+.owl-carousel .owl-wrapper-outer {
+	max-width: 432px;
+}
+.post-sharing-wrap {
+	margin-bottom: 30px;
+}
+/* Videos ========================================================== */
+.video-container .post-sharing-wrap {
+	margin-bottom: 30px;
+	margin-top: 70px;
+}
+.video-container .article_nav {
+	float: none;
+	border-top: none;
+	clear: both;
+	top: -73px;
+	position: relative;
+	margin-bottom: -37px;
+}
+body.single-video .post-author-wrap {
+	margin-bottom: 60px;
+}
+
+}
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ! Landscape phones and down
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+@media (max-width: 480px) {
+	.container {
+		width: 320px;
+	}
+	/* Isotope ============================================================ */
+	#isotope-filter li:first-of-type, #isotope-filter a {
+		padding: 10px;
+		font-size: 15px;
+	}
+	#isotope-filter > li a {
+		display: block;
+		text-align: left;
+		border-top: 1px solid #b4b4b4;
+	}
+	#isotope-filter > li {
+		float: none;
+		display: block;
+		border-right: 0;
+	}
+	/* Gallery ============================================================ */
+	.related-video-carousel-navigation h3, .related-gallery-carousel-navigation h3 {
+		font-size: 12px;
+	}
+	#related-gallery-carousel .gallery-slide-wrap {
+		max-width: 295px;
+	}
+	#related-gallery-carousel .cycle-slideshow {
+		max-height: 295px;
+	}
+	#single-galleries-carousel {
+		width: 100%;
+		height: 411px;
+	}
+	#single-galleries-carousel .caroufredsel_wrapper[style] {
+		height: 411px !important;
+	}
+	#unPress-Single-Gallery-Carousel img {
+		width: 300px;
+		height: auto;
+	}
+	/* Galleries ========================================================== */
+	.gallery-slide-wrap, #related-video-carousel .video-slide-wrap {
+		height: 290px;
+		width: 290px;
+	}
+	.gallery-slide-wrap img, #related-video-carousel .video-slide-wrap img {
+		width: 100%;
+		height: auto;
+	}
+	.videos-carousel-slide-title, .galleries-carousel-slide-title {
+		top: 187px;
+	}
+	/* Category box ======================================================= */
+	.category-box {
+		margin: 0 0 30px;
+	}
+	.category-box.fixed {
+		position: relative;
+		margin: 0 0 30px;
+	}
+	.category-box.fixed[style] {
+		top: auto !important;
+		left: auto !important;
+	}
+	/* iosSlider ========================================================== */
+	.item {
+		width: 320px;
+	}
+	#home-rotator-container {
+		height: 163px;
+	}
+	.home-rotator-navigation #prev, .home-rotator-navigation #next {
+		top: 65px;
+	}
+	.iosSlider .slider .item .inner .text1 {
+		margin: 0 60px;
+	}
+	.home-rotator-navigation {
+		display: none;
+	}
+	.item .inner .text1 span.category-name, .item .inner .text1 span.post-title-name, .ei-title h2 {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.flexslider .text-external-wrap, .slides .item .inner, .ei-slider {
+		height: 163px;
+	}
+	.ei-slider {
+		padding: 0 0 40px;
+	}
+	#footer-first .latest-post-carousel .gallery-carousel-slide-image, #footer-first .latest-interviews-carousel .list-unstyled > li {
+		max-width: 100% !important;
+	}
+	#footer .widget {
+		padding: 0 15px;
+	}
+	.widget_search .navbar-search .form-group {
+		position: relative;
+		width: 85%;
+	}
+	#related-gallery-carousel, #related-video-carousel {
+		height: 351px;
+	}
+	.widget-content {
+		position: relative;
+	}
+	.latest-post-carousel, .latest-interviews-carousel {
+		
+	}
+	/* Header ========================================================== */
+	.navbar-brand img {
+		width: auto;
+		max-height: 30px;
+	}
+	.navbar-brand {
+		margin-top: 10px !important;
+	}
+	/* Post author ========================================================== */
+	.post-author-wrap {
+		border-bottom: 1px solid #b4b4b4;
+	}
+	.post-sharing-wrap {
+		margin-bottom: 30px;
+	}
+
+	
+}
