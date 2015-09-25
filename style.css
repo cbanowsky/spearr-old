@@ -191,8 +191,8 @@ a, .navbar-nav a, .secondary-nav .nav .open>a, .secondary-nav .nav .open>a:hover
 	color: #000 !important;
 }
 .wp-caption, .btn-icon, .primary-nav, .secondary-nav .nav .open>a, .secondary-nav .nav .open>a:hover, .secondary-nav .nav .open>a:focus, .secondary-nav .dropdown:hover, .secondary-nav .dropdown:hover > a, .overlay .hover-btn:hover, .post-content-holder, .mosaic .hover-btn:hover, .component_next-article, .component_previous-article, .component_next-article .next-article_wrapper .next-article_details, .component_previous-article .next-article_wrapper .next-article_details, .component_next-article .previous-article_wrapper .next-article_details, .component_previous-article .previous-article_wrapper .next-article_details, .component_next-article .next-article_wrapper .previous-article_details, .component_previous-article .next-article_wrapper .previous-article_details, .component_next-article .previous-article_wrapper .previous-article_details, .component_previous-article .previous-article_wrapper .previous-article_details, .blocks .hover-btn:hover, .bypostauthor, .video-container .component_next-article:hover, .video-container .component_previous-article:hover, .video-container .btn-icon:hover, .single-galleries-carousel-arrows > a, .single-galleries-carousel-arrows .slide-counter, .latest-comment .numb, #isotope-filter {
-	background: #fff;
-	background-color: #fff;
+	background: #ccc;
+	background-color: #ccc;
 	font-family: "kenzoregular";
 }
 .btn-default, .nav>li>a:hover, .nav>li>a:focus, .navbar-search input[type="text"]:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus, .primary-nav .dropdown-menu, .primary-nav .dropdown:hover, .primary-nav .dropdown:hover > a, .secondary-nav, .category-box, .slide, #homepage-gallery-carousel, #homepage-interviews-carousel-navigation-wrapper .cycle-carousel-wrap, .footer-2-wrapper, .post-image .btn-icon:hover, .tags-wrap a, .tags a, .tagcloud a, .btn-post-share:hover, .component_next-article.active:hover, .component_previous-article.active:hover, .video-container, .video-container .component_next-article, .video-container .component_previous-article, .video-container .btn-icon, #related-video-carousel-navigation-wrapper .cycle-carousel-wrap, #related-gallery-carousel-navigation-wrapper .cycle-carousel-wrap, .sliderContainer, .ei-slider-thumbs li a, .alter_img, tags-wrap a {
@@ -321,9 +321,7 @@ h3 {
 	font-size: 20px;
 	line-height: 30px;
 }
-h3 > a:hover {
-	color: #ccc;
-}
+
 h4 {
 	font-size: 18px;
 	line-height: 28px;
