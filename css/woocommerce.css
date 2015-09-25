@@ -1070,9 +1070,11 @@ font-weight: normal;
 text-decoration: line-through;
 }
 .parallax-banner-body p {
-font-size: 72px;
+font-size: 120px;
 font-weight: 200;
 font-family: "kenzoregular";
+text-shadow: 2px 2px #ccc;
+
 
 }
 /* ============================================================= */
