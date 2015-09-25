@@ -17,11 +17,11 @@ a:hover .gallery-carousel-slide-title, .interview-slide-wrap:hover .interviews-c
 }
 ::selection {
 	background: #CF2072;
-	color: #ccd;
+	color: #ccc;
 }
 ::-moz-selection {
 	background: #CF2072;
-	color: #fff;
+	color: #ccc;
 }
 #isotope-filter li.active a {
 	box-shadow: inset 0px -5px 0px #CF2072;
