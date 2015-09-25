@@ -8,6 +8,18 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+    font-family: 'kenzoregular';
+    src: url('../fonts/kenzo_regular-webfont.eot');
+    src: url('../fonts/kenzo_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kenzo_regular-webfont.woff2') format('woff2'),
+         url('../fonts/kenzo_regular-webfont.woff') format('woff'),
+         url('../fonts/kenzo_regular-webfont.ttf') format('truetype'),
+         url('../fonts/kenzo_regular-webfont.svg#kenzoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .button,
 .add_to_cart.button {
 font-size: 14px;
@@ -1060,6 +1072,7 @@ text-decoration: line-through;
 .parallax-banner-body p {
 font-size: 24px;
 font-weight: 100;
+font-family: "kenzoregular"
 }
 /* ============================================================= */
 /* unPress grids */
