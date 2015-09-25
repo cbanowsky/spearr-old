@@ -841,12 +841,13 @@ Post
 }
 .post-content-holder h3 {
 	margin: 0;
-	font-size: 18px;
+	font-size: 24px;
 	font-family: "kenzoregular";
 	line-height: 24px;
 }
 .post-content-holder h3 a, .post-author a {
 	text-decoration: none;
+	color: #ccc;
 }
 .post-author {
 	font-style: italic;
