@@ -1487,6 +1487,12 @@ Post
 	font-color: #000;
 	font-family: "kenzoregular";
 }
+.category-crubs:hover {
+	font-size: 16px;
+	font-color: #000;
+	opacity: .75;
+	font-family: "kenzoregular";
+}
 .archive-video .post-category {
 	font-size: 18px;
 	margin: 20px 0 10px 0px;
