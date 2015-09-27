@@ -75,6 +75,11 @@ global $ft_option;
 							<li><?php esc_attr( the_category(', ') ); ?></li>
 						</ul>
 						
+
+          
+                        
+						<h1 class="post-title"><?php the_title(); ?></h1>
+
 						<div class="post-meta">
 							
                             <?php if($ft_option["single_author_name"]=="1"):?>
@@ -92,13 +97,6 @@ global $ft_option;
                             <?php endif; ?>
                             
                         </div>
-                        
-						<?php
-                        // Post likes and views
-						get_template_part("inc/likes-views");
-						?>
-                        
-						<h1 class="post-title"><?php the_title(); ?></h1>
 						
 						<div class="entry-content">
 							<?php the_content(); ?>
