@@ -313,8 +313,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 10px 0 20px;
 }
 h1 {
-	font-size: 30px;
+	font-size: 50px;
 	line-height: 39px;
+	padding: 20px 0 10px;
 }
 h2 {
 	font-size: 24px;
