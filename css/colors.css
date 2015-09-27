@@ -3,10 +3,10 @@
 	opacity: .75;
 }
 .read-more {
-	color: #CF2072;
+	color: #73455B;
 }
 a:hover, .category-box p a:hover, .footer-2-wrapper a:hover, .footer-1-wrapper .widget-content a:hover, .nav-social a:hover, .navbar-nav a.dropdown-post-title:hover, .post-content-holder h3 a:hover, .post-author a:hover, .blocks .hover-btn:hover i, .post a, .post-category a, .post-meta a:hover, .archive-video .post .post-title a:hover, .overlay .hover-btn:hover i, .sub-links a:hover, #footer a:hover, .navbar-nav .menu-item a:hover {
-	color: #CF2072;
+	color: #73455B;
 	text-decoration: none;
 	background: none;
 }
@@ -17,13 +17,13 @@ a:hover .gallery-carousel-slide-title, .interview-slide-wrap:hover .interviews-c
 	border: 1px solid #CF2072;
 }
 ::selection {
-	background: #CF2072;
+	background: #73455B;
 	color: #ccc;
 }
 ::-moz-selection {
-	background: #CF2072;
+	background: #73455B;
 	color: #ccc;
 }
 #isotope-filter li.active a {
-	box-shadow: inset 0px -5px 0px #CF2072;
+	box-shadow: inset 0px -5px 0px #73455B;
 }
