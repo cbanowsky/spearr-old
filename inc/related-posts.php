@@ -54,9 +54,9 @@ if($ft_option['posts_default_sidebar_on']== 0 ):
 
 else:
 	$class_section = "module masonry related-post";
-	$class_sticky_box = "col-lg-4 col-md-4 col-sm-4 sticky-col";
-	$class_col2 = "col-lg-8 col-md-8 col-sm-8";
-	$class_post_holder = "post-holder col-lg-6 col-md-6 col-sm-6 col-xs-12";
+	$class_sticky_box = "col-lg-3 col-md-4 col-sm-4 sticky-col";
+	$class_col2 = "col-lg-9 col-md-8 col-sm-8";
+	$class_post_holder = "post-holder col-lg-9 col-md-9 col-sm-9 col-xs-12";
 endif;	
 ?>
 
