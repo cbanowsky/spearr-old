@@ -48,25 +48,20 @@ if($ft_option['posts_default_sidebar_on']== 0 ):
 	else:
 		$class_section = "module masonry related-post";
 		$class_sticky_box = "col-lg-4 col-md-4 col-sm-4 sticky-col";
-		$class_col2 = "col-lg-8 col-md-8 col-sm-8";
+		$class_col2 = "col-lg-12 col-md-8 col-sm-8";
 		$class_post_holder = "post-holder col-lg-6 col-md-6 col-sm-6 col-xs-12"; 
 	endif;
 
 else:
 	$class_section = "module masonry related-post";
 	$class_sticky_box = "col-lg-3 col-md-4 col-sm-4 sticky-col";
-	$class_col2 = "col-lg-9 col-md-8 col-sm-8";
+	$class_col2 = "col-lg-12 col-md-8 col-sm-8";
 	$class_post_holder = "post-holder col-lg-9 col-md-9 col-sm-9 col-xs-12";
 endif;	
 ?>
 
 <section class="<?php echo $class_section; ?>">
 	<div class="row">
-		<div class="<?php echo $class_sticky_box; ?>">
-			<div class="category-box sticky-box static_col">
-				<h2><?php _e( $ft_option["single_related_title"], "favethemes" ); ?></h2>
-			</div>
-		</div>
 		<div class="<?php echo $class_col2; ?>">
 			<div class="row post-row">
 			<?php foreach( $related_posts as $post ): setup_postdata( $post ); ?>	
