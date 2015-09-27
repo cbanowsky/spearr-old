@@ -69,7 +69,7 @@ global $ft_option;
                             </div>
                             <?php endif; ?>
                     <?php endif; ?>
-                    <div style="font-color: #000;"><?php esc_attr( the_category('|  ') ); ?></div>
+                    <div style="font-color: #000; font-family='kenzoregular';"><?php esc_attr( the_category('|  ') ); ?></div>
 
                     <article class="post single-post ">
 						
