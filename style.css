@@ -152,7 +152,7 @@ Fonts
 Large Configuration Variables
 ============================================== */
 body, .navbar-nav a.dropdown-post-title, .sub-links li, .category-box h2, .homepage-gallery-carousel-navigation h3, .featured-video-title p, .tool, .homepage-interviews-carousel-navigation h3, .interviews-tools .action-tool, .interviews-tools .share-tool, .interviews-slide-title, .interview-more, .interview-more:hover, #footer h3.widget-title, .tags-wrap h3, .related-video-carousel-navigation h3, .related-gallery-carousel-navigation h3, .videos-slide-category, .galleries-slide-category, .sidebar h3.widget-title, .item .inner .text1 span.category-name, .flexslider span.category-name {
-	font-family: "Eksell Display Medium", sans-serif;
+	font-family: "kenzoregular", sans-serif;
 }
 h1, h2, h3, h4, h5, h6, blockquote, .form-control, .primary-nav, .post-content-holder h3, .post-author, .category-box p, .gallery-carousel-slide-title, .featured-video-title h2, .interviews-carousel-slide-title, .footer-2-wrapper, .newsletter-subscribe input.form-control, .newsletter-subscribe button[type="submit"], .post-meta, .article_nav em, .comment .comment-date, .videos-carousel-slide-title, .galleries-carousel-slide-title, .twitter-timestamp, .widget_recent_entries span, .widget_recent_entries a, .widget_recent_comments li.recentcomments a, .pagination > li > a, .pagination > li > span, .iosSlider .post-title-name, .flexslider .post-title-name, .ei-title h2 {
 	font-family: "kenzoregular", sans-serif;
