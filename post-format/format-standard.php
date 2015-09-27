@@ -83,7 +83,7 @@ global $ft_option;
                             <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
 								<?php esc_attr( the_author_meta( 'display_name' )); ?>
                             </a>
-                            
+                            |
                             <?php endif; ?>
                             
                             <?php if($ft_option["single_post_date"]=="1"):?>
