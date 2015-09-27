@@ -72,7 +72,7 @@ global $ft_option;
                     
                     <article class="post single-post ">
 						<ul class="post-category" style="color: #000;">
-							<li><?php esc_attr( the_category('|  ') ); ?></li>
+							<li style="font-color: #000;"><?php esc_attr( the_category('|  ') ); ?></li>
 						</ul>
 						
 
