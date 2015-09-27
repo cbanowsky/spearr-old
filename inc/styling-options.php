@@ -11,6 +11,16 @@ function custom_styling(){
 global $ft_option;?>
 
 <style type="text/css">
+@font-face {
+    font-family: 'kenzoregular';
+    src: url('../fonts/kenzo_regular-webfont.eot');
+    src: url('../fonts/kenzo_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kenzo_regular-webfont.woff2') format('woff2'),
+         url('../fonts/kenzo_regular-webfont.woff') format('woff'),
+         url('../fonts/kenzo_regular-webfont.ttf') format('truetype'),
+         url('../fonts/kenzo_regular-webfont.svg#kenzoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 /*==========================================================
 = Fonts Family 
@@ -80,7 +90,7 @@ h1, h2, h3, h4, h5, h6, blockquote,
 #footer h3.widget-title,
 .bbp-forum-title,
 .bbp-reply-topic-title {
- font-family: "Eksell Display Medium";
+ font-family: "kenzoregular";
 }
 .comment .comment-date,
 .widget_recent_comments li.recentcomments a {
