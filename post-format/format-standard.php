@@ -71,7 +71,7 @@ global $ft_option;
                     <?php endif; ?>
                     
                     <article class="post single-post ">
-						<ul class="post-category">
+						<ul class="post-category" style="color: #000;">
 							<li><?php esc_attr( the_category('|  ') ); ?></li>
 						</ul>
 						

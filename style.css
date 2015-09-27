@@ -1471,10 +1471,11 @@ Post
 }
 .post-category {
 	font-size: 18px;
-	margin: 0 0 10px -5px;
+	 margin: 0 0 10px -5px;
 	font-family: "kenzoregular";
 	font-color: #000;
 	background-color: #fff;
+	list-style: none;
 }
 .archive-video .post-category {
 	font-size: 18px;
