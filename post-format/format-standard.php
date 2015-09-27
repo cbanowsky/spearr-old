@@ -123,30 +123,6 @@ global $ft_option;
 						
 					</article>
                     
-                    <?php
-					if($ft_option['posts_default_sidebar_on']== 0 ):
-						if( get_field( 'post_sidebar' ) == "post_sidebar_on"):
-							if($ft_option["single_related"]=="1"): 
-								get_template_part( 'inc/related', 'posts' ); 
-							endif;
-							
-							// If comments are open or we have at least one comment, load up the comment template.
-							if ( comments_open() || get_comments_number() ) {
-								comments_template();
-							}
-						endif;
-				    else:
-						if($ft_option["single_related"]=="1"): 
-							get_template_part( 'inc/related', 'posts' ); 
-						endif;
-						
-						// If comments are open or we have at least one comment, load up the comment template.
-						if ( comments_open() || get_comments_number() ) {
-							comments_template();
-						}
-					endif;
-					?>
-                    
 				</div>
                 <?php if($ft_option['posts_default_sidebar_on']== 0 ):?>
 					<?php if(get_field( 'post_sidebar' ) == "post_sidebar_on"):?>
