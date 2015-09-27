@@ -66,13 +66,11 @@ h1, h2, h3, h4, h5, h6, blockquote,
 .newsletter-subscribe button[type="submit"], 
 .post-meta, 
 .article_nav em, 
-.comment .comment-date, 
 .videos-carousel-slide-title, 
 .galleries-carousel-slide-title, 
 .twitter-timestamp, 
 .widget_recent_entries span, 
-.widget_recent_entries a, 
-.widget_recent_comments li.recentcomments a, 
+.widget_recent_entries a,  
 .pagination > li > a, 
 .pagination > li > span, 
 .iosSlider .post-title-name, 
@@ -83,6 +81,10 @@ h1, h2, h3, h4, h5, h6, blockquote,
 .bbp-forum-title,
 .bbp-reply-topic-title {
  font-family: "Eksell Display Medium";
+}
+.comment .comment-date,
+.widget_recent_comments li.recentcomments a {
+	display: none;
 }
 
 /* primary-nav / Main nav */
