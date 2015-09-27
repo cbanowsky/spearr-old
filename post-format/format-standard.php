@@ -71,8 +71,8 @@ global $ft_option;
                     <?php endif; ?>
                     
                     <article class="post single-post ">
-						<ul class="list-inline post-category">
-							<li><?php esc_attr( the_category(', ') ); ?></li>
+						<ul class="post-category">
+							<li><?php esc_attr( the_category('|  ') ); ?></li>
 						</ul>
 						
 
