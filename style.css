@@ -474,12 +474,12 @@ Primary Nav
 	z-index: 9999;
 }
 .navbar-brand {
-	margin-top: 30px;
+	margin-top: 10px;
 	padding: 0;
 	font-family: "Eksell Display Medium";
 	font-size: 34px;
 	font-weight: 200;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 .navbar-brand a {
 	margin-top: 30px;
