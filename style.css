@@ -1477,6 +1477,11 @@ Post
 	background-color: #fff;
 	list-style: none;
 }
+.category-crumbs {
+	font-size: 12px;
+	font-color: #000;
+	font-variant: small-caps;
+}
 .archive-video .post-category {
 	font-size: 18px;
 	margin: 20px 0 10px 0px;
