@@ -8,8 +8,8 @@
         <div class="row">
             <header class="text-center mar-b30 col-sm-12 col-lg-10 col-lg-offset-1">
                 <div class="post-icon"><i class="fa fa-file-o"></i></div>
-                <h1 class="post-title"><?php the_title(); ?></h1>
                 <?php get_template_part( 'inc/meta-single' ); ?>
+                <h1 class="post-title"><?php the_title(); ?></h1>
             </header>
             <div class="entry-content col-sm-12 col-lg-10 col-lg-offset-1">
             <?php if ( is_search() ) : ?>
