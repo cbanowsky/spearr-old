@@ -1,5 +1,6 @@
 .post-category a:hover, .post a:hover, .btn-icon:hover, .comment-reply-link:hover, .tags-wrap a:hover, .tags a:hover, a.read-more:hover, .share-page a:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus, #today, #footer .tagcloud a:hover, .form-submit #submit, .home-rotator-navigation #prev, .home-rotator-navigation #next, .ei-slider-thumbs li.ei-slider-element, .image-holder .hover, .dropdown-menu>li>a:hover, .secondary-nav .nav a:hover,  .secondary-nav .nav a:focus, .homepage-gallery-carousel-arrows > a:hover, .homepage-interviews-carousel-arrows > a:hover, .related-video-carousel-arrows > a:hover, .tag-holder a:hover, .newsletter-subscribe button[type="submit"]:hover, .pagination>li>a:hover, .pagination>li>span:hover,  .pagination>li>a:focus, .pagination>li>span:focus, .page-numbers.current  {
-	background: #CF2072 !important;
+	background: #ccc !important;
+	opacity: .75;
 }
 .read-more {
 	color: #CF2072;
