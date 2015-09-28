@@ -232,6 +232,18 @@ a:hover {
 #header {
 	margin-bottom: 4px;
 }
+
+/* =============================================
+
+Cam's CSS
+
+============================================== */
+.inline-cats a {
+	display: inline-block;
+	vertical-align: middle;
+	list-style: none;
+}
+
 /* =============================================
 
 WP Classes

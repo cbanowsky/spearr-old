@@ -23,6 +23,7 @@ endif;
 				  || get_sub_field( 'format_posts_excerpt' )=="enable"
 				): ?>
         <div class="post-entry-holder">
+           <div class="category-crubs"><?php esc_attr( the_category(' | ') ); ?></div>
             <?php the_excerpt(); ?>
         </div><!-- .post-entry-holder -->
         <?php endif; ?>

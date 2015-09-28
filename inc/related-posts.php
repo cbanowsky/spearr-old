@@ -75,12 +75,12 @@ endif;
         <header>
             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         		<div class="post-entry-holder">
-            		<?php the_excerpt(); ?>
-        		   </div><!-- .post-entry-holder -->
-                 </div>	
+ 				<div class="category-crubs"><?php esc_attr( the_category(' | ') ); ?></div>
+ 				<?php the_excerpt();?>
+                 </div>
           </header>				
-		</div><!-- .post-holder -->
-			
+		 </div><!-- .post-holder -->
+		</div>	
 			<?php endforeach; ?>	
 			</div><!-- .row -->
 		</div><!-- .col-lg-9 -->
