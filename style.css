@@ -598,7 +598,10 @@ Primary Nav
 	opacity: .65;
 }
 .navbar-nav .menu-item a {
-	display: block;
+	display: inline-block;
+	position: static;
+	margin-bottom: 15px;
+	margin-right: 25%;
 }
 .navbar-nav .menu-item .dropdown-menu a:hover {
 	left: 10px;
@@ -609,8 +612,8 @@ Primary Nav
 	margin: 0px 0 0;
 	display: block;
 	text-transform: uppercase;
-	font-size: 15px;
-	font-family: "Motel Xenia Regular";
+	font-size: 18px;
+	font-family: "kenzoregular";
 	font-weight: 400;
 
 }
@@ -631,13 +634,16 @@ Primary Nav
 	margin-top: -15px;
 }
 .sub-links {
-	text-align: left;
-	font-size: 18px;
+	text-align: right;
+	font-size: 25px;
+	padding-left: 50px;
 }
 .sub-links li {
-	border-bottom: 1px dotted #2e2e2e;
-	padding: 7px 0 5px;
-}
+	padding: 0px 0 5px;
+	display: inline;
+	vertical-align: baseline;
+/*	margin-bottom: 25px;
+*/}
 .navbar-toggle .icon-bar, .nav-btn {
 	border: 1px solid #000;
 	border-radius: 0;
@@ -678,7 +684,7 @@ Megamenu
 	right: 0;
 }
 .yamm .yamm-content {
-	padding: 20px 30px;
+	padding: 40px 10px 30px;
 }
 .yamm .dropdown.yamm-fw .dropdown-menu {
 	left: 0;
@@ -721,7 +727,7 @@ Secondary Nav
 	display: none;
 }
 #secondary-nav > .menu-item .dropdown-menu > .menu-item:hover .dropdown-menu {
-	display: block;
+	display: inline;
 	position: absolute;
 	top: 0;
 	left: 99.5%;
@@ -863,6 +869,7 @@ Post
 	font-size: 26px;
 	font-family: "Eksell Display Medium";
 	line-height: 24px;
+	font-weight: bold;
 }
 .post-content-holder h3 a, .post-author a {
 	text-decoration: none;

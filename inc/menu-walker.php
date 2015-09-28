@@ -102,7 +102,7 @@ class UnPress_Menu extends Walker_Nav_Menu {
 			
 			if ( ! get_field( 'latest_posts_menu', 'category_' . $cat ) || get_field( 'latest_posts_menu', 'category_' . $cat ) == 'latest_posts_on' ){ // Add Posts to menu if 'latest_posts' field is set to 'Add'
 				
-				$item_output .= '<div class="sub-posts pull-right col-lg-8 col-md-8 col-sm-6 col-xs-12">
+				$item_output .= '<div class="sub-posts col-lg-8 col-md-8 col-sm-6 col-xs-12">
 								 <div class="row" height="50%">';
 					
 					
