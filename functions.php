@@ -55,7 +55,7 @@ function unpress_setup() {
 	add_image_size( 'interview-img', 450, 9999);
 	add_image_size( 'widget-slider', 580, 580, true );
 	add_image_size( 'iosslider', 968, 545, true );
-	add_image_size( 'menu-size', 400, 225, true );
+	// add_image_size( 'menu-size', 400, 225, true );
 	add_image_size( 'grid-style-1', 833, 540, true );
 	
 	// This theme uses wp_nav_menu() in one locations.

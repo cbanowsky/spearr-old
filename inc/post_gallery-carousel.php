@@ -1,11 +1,10 @@
 <?php 
 // Check if gallery was uploaded
 if( get_field( 'post_upload_gallery' ) ): ?>
-
 <div id="single-galleries-carousel">
 	<div id="single-galleries-carousel-navigation-wrapper">
 		<div class="single-galleries-carousel-navigation clearfix">
-			<?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large'); ?>
+			<?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'medium'); ?>
 			<div class="single-galleries-carousel-arrows">
 				<a class="btn-icon btn ilightbox" href="<?php echo $large_image_url[0]; ?>"><i class="fa fa-arrows-alt"></i></a>
 				<a href="#" id="single-galleries-carousel-prev" class="btn btn-icon"><i class="fa fa-angle-left"></i></a>

@@ -47,8 +47,10 @@ if ( have_posts() ) :
 
 <section class="gallery-container">
 	<div class="container">
-		<?php get_template_part( 'inc/post_gallery', 'carousel' ); ?>
-	</div>
+ 		<?php get_template_part( 'inc/post_gallery', 'carousel' ); ?>
+	
+
+ </div>
 </section>
 				
 				
