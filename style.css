@@ -223,7 +223,7 @@ body {
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 25px;
-	font-family: "Novecento Sans Wide Normal";
+	font-family: "Open-Sans" sans-serif;
 }
 a:hover {
 	text-decoration: none;
@@ -1504,6 +1504,7 @@ Post
 	font-weight: bold;
 	font-style: normal;
 	margin: 0 0 10px;
+	font-family: "kenzo";
 }
 .post-popularity {
 	font-size: 13px;

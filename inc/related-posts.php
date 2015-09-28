@@ -49,7 +49,7 @@ if($ft_option['posts_default_sidebar_on']== 0 ):
 		$class_section = "module masonry related-post";
 		$class_sticky_box = "col-lg-4 col-md-4 col-sm-4 sticky-col";
 		$class_col2 = "col-lg-8 col-md-8 col-sm-8";
-		$class_post_holder = "post-holder col-lg-12 col-md-6 col-sm-6 col-xs-12"; 
+		$class_post_holder = "post-holder col-lg-12h1, h2, h3, h4, h5, h6, blockquote, .form-control, .post-content-holder h3, .post-author, .category-box p, .gallery-carousel-slide-title, .featured-video-title h2, .interviews-carousel-slide-title, .footer-2-wrapper, .newsletter-subscribe input.form-control, .newsletter-subscribe button[type="submit"], .post-meta, .article_nav em, .videos-carousel-slide-title, .galleries-carousel-slide-title, .twitter-timestamp, .widget_recent_entries span, .widget_recent_entries a, .pagination > li > a, .pagination > li > span, .iosSlider .post-title-name, .flexslider .post-title-name, .ei-title h2, .sidebar h3.widget-title, #footer h3.widget-title, .bbp-forum-title, .bbp-reply-topic-title col-md-6 col-sm-6 col-xs-12"; 
 	endif;
 
 else:
