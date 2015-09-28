@@ -745,7 +745,6 @@ Post
 
 .post-holder {
 	position: relative;
-	margin-bottom: 30px;
 }
 .post-entry-holder {
 	font-weight: 300;
@@ -863,7 +862,7 @@ Post
 }
 .post-content-holder {
 	padding: 20px;
-	border-bottom: 4ccpx solid #e7e7e7;
+	border-bottom: 4px solid #e7e7e7;
 }
 .post-content-holder h3 {
 	margin: 0;
