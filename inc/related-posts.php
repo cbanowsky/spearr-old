@@ -67,25 +67,19 @@ endif;
 			<?php foreach( $related_posts as $post ): setup_postdata( $post ); ?>	
 			
             	<div class="<?php echo $class_post_holder; ?>">
-					<div class="featured-image image-holder holder">
-						<?php unpress_masonry_image(); ?>
-					</div><!-- .featured-image -->
-					
-					<div class="post-content-holder">
-						<header>
-							<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							
-							<?php if($ft_option["site_author_name"]=="1"):?>
-                            <p class="post-author">
-								<?php _e("by","favethemes"); ?> 
-                            	<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php esc_attr( the_author_meta( 'display_name' )); ?>
-                                </a>
-                             </p>
-                             <?php endif; ?>
-                             
-						</header>
-					</div><!-- .post-content-holder -->
-				</div><!-- .post-holder -->
+    <div class="featured-image image-holder holder">
+        <?php unpress_masonry_image(); ?>
+    </div><!-- .featured-image -->
+    
+    <div class="post-content-holder">
+        <header>
+            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        		<div class="post-entry-holder">
+            		<?php the_excerpt(); ?>
+        		   </div><!-- .post-entry-holder -->
+                 </div>	
+          </header>				
+		</div><!-- .post-holder -->
 			
 			<?php endforeach; ?>	
 			</div><!-- .row -->
