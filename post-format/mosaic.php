@@ -1,7 +1,5 @@
-<a href="<?php the_permalink(); ?>">
 <div class="featured-image image-holder holder">
-    <ul>
-        <li class="overlay">
+    <ul>        <li class="overlay">
             <div class="hover">
                 <div class="post-content-holder">
                     <div class="post-content-display">
@@ -17,12 +15,14 @@
                     </div>
                 </div>
             </div><!-- .hover -->
+                <a href="<?php the_permalink(); ?>">
             <?php 
 			if ( has_post_thumbnail() ) {
 				the_post_thumbnail("mosaic-size");
 			} else { ?>
-               <a href="<?php the_permalink(); ?>" class="hover-btn"><img class="alter_img" src="<?php echo get_template_directory_uri(); ?>/images/pixel.gif" alt="<?php the_title(); ?>" /></a>
+               ><img class="alter_img" src="<?php echo get_template_directory_uri(); ?>/images/pixel.gif" alt="<?php the_title(); ?>" />
             <?php } ?>
+        </a>
         </li><!-- .overlay -->
     </ul>
     <?php
@@ -36,4 +36,3 @@
 	endif;
 	?>	
 </div>
-</a>

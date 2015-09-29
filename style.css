@@ -185,7 +185,7 @@ a, .navbar-nav a, .secondary-nav .nav .open>a, .secondary-nav .nav .open>a:hover
 	color: #000;
 }
 .btn-default, .nav>li>a:hover, .nav>li>a:focus, .navbar-search input[type="text"]:focus, .primary-nav .dropdown-menu, .primary-nav .dropdown:hover, .primary-nav .dropdown:hover > a, .navbar-nav a.dropdown-post-title, .sub-links a, .page-nav a, .dropdown-menu>li>a:hover, .nav-social a, .image-holder .hover, .tag-holder a, .icon-post-holder, .blocks .post-content-holder a, .blocks .post-content-holder h3 a:hover, .mosaic .post-content-holder a, .mosaic .post-content-holder h3 a:hover, .category-box, .category-box p a, .home-rotator-navigation #prev, .home-rotator-navigation #next, .homepage-gallery-carousel-navigation h3, .homepage-gallery-carousel-arrows > a, .gallery-carousel-slide-title, .interviews-carousel-slide-title, .interviews-tools .action-tool, .interviews-tools .share-tool, .interview-more, .interview-more:hover, .interviews-slide-sub-title a, .homepage-interviews-carousel-arrows > a:hover, #footer h3.widget-title, .newsletter-subscribe input.form-control, .newsletter-subscribe button[type="submit"], #footer a, #footer .twitter-item .fa-twitter, .tags-wrap a, .tags a, .tagcloud a, .btn-post-share:hover, .video-container .component_next-article i, .video-container .component_previous-article i, .video-container .btn-icon:hover, .video-container .component_next-article, .video-container .component_previous-article, .video-container .btn-icon, .video-container .component_next-article:hover, .video-container .component_previous-article:hover, .video-container .btn-icon:hover, .videos-carousel-slide-title, .galleries-carousel-slide-title, .video-slide-wrap:hover .videos-slide-category, .gallery-slide-wrap:hover .galleries-slide-category, .galleries-slide-sub-title a, .related-gallery-carousel-arrows > a:hover, .videos-slide-sub-title a, .related-video-carousel-arrows > a:hover, .latest-post-gallery-carousel-prev, .latest-post-gallery-carousel-next, .featured-post-gallery-carousel-prev, .featured-post-gallery-carousel-next, .latest-interviews-carousel-prev, .latest-interviews-carousel-next, #share-page, #share-page a, .iosSlider .slider .item .inner .text1 span, .slides .item .inner .text1 span, .flexslider span.category-name a, .flex-direction-nav a, .ei-title h2, .flex-direction-nav a:before, .component_next-article.active:hover i, .component_previous-article.active:hover i, .post-category a:hover, .post a:hover, .btn-icon:hover, .comment-reply-link:hover, .tags-wrap a:hover, .tags a:hover, a.read-more:hover, .share-page a:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus, #today, #footer .tagcloud a:hover, .form-submit #submit, .home-rotator-navigation #prev, .home-rotator-navigation #next, .ei-slider-thumbs li.ei-slider-element, a:hover .gallery-carousel-slide-title, .interview-slide-wrap:hover .interviews-carousel-slide-title, .video-slide-wrap:hover .videos-carousel-slide-title, .gallery-slide-wrap:hover .galleries-carousel-slide-title, .latest-post-gallery-carousel-prev:hover, .latest-post-gallery-carousel-next:hover, .latest-interviews-carousel-prev:hover, .latest-interviews-carousel-next:hover, .featured-post-gallery-carousel-prev:hover, .featured-post-gallery-carousel-next:hover, #footer .latest-post-gallery-carousel-prev:hover, #footer .latest-post-gallery-carousel-next:hover, #footer .latest-interviews-carousel-prev:hover, #footer .latest-interviews-carousel-next:hover, #footer .featured-post-gallery-carousel-prev:hover, #footer .featured-post-gallery-carousel-next:hover, #galleries-carousel-prev:hover, #galleries-carousel-next:hover, .home-rotator-navigation #prev:hover, .home-rotator-navigation #next:hover, .newsletter-subscribe button[type="submit"]:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus, .page-numbers.current, #secondary-nav > .menu-item a:hover, .instagram-slider-prev, .instagram-slider-next, .instagram-slider-prev:hover, .instagram-slider-next:hover, .btn.btn-default:hover {
-	color: #000;
+	color: #F9F9F9;
 }
 .tagcloud a:hover, .tag-holder a:hover, .tag-holder a, .post-meta a:hover, .tags-wrap a, .interviews-slide-sub-title a:hover, .video-container .btn-post-share i, .videos-slide-sub-title a:hover, .post-author a:hover, #gallery-carousel-next, #gallery-carousel-prev {
 	color: #fff !important;
@@ -1968,9 +1968,9 @@ Gallery
 */}
 #single-galleries-carousel {
 	position: relative;
-	width: 50%;
+	width: 500px;
 	overflow: hidden;
-	height: 25%;
+	height: auto;
 	margin: 0 auto;
 }
 #single-galleries-carousel-navigation-wrapper {
@@ -2014,6 +2014,8 @@ Gallery
 }
 #single-galleries-carousel .slide img {
 	margin: 0 1px 0 0;
+	width: 500px;
+	height: auto;
 
 }
 .single-gallery-article_nav {
@@ -2047,16 +2049,17 @@ Gallery
 }
 .gallery-slide-wrap img {
 	width: auto;
-	height: 25%;
+	height: auto;
 
 }
 .image-caption {
-	background: #000;
-	position: inherit;
+	background: #f9f9f9;
+	position: absolute;
 	z-index: 999;
 	color: #000;
-/*	bottom: 0;
-*/	font-size: 12px;
+	top: 0;
+	right: 0;
+	font-size: 12px;
 	padding: 0 10px;
 }
 /* =============================================

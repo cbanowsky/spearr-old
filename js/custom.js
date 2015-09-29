@@ -293,6 +293,8 @@ $(window).load(function(e) {
 				pauseOnHover    : true
 			},
 			mousewheel: false,
+			width: null,
+			height: null,
 			swipe: {
 				onMouse: true,
 				onTouch: true

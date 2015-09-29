@@ -61,8 +61,8 @@
 			echo '<div class="col-lg-9 col-md-9 col-sm-8">';
 		endif;
 		?>
+		
 			<div class="row post-row">
-				
 				<?php 
 					$i=0;
 					
@@ -85,7 +85,7 @@
                 endif;
 				wp_reset_query();
                 ?> 
-							
+
 			</div><!-- .row -->
 		</div><!-- .col-lg-9 -->
         
