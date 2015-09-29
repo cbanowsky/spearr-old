@@ -162,18 +162,18 @@ Transitions
 ============================================= */
 
 a, a:hover, .navbar-search input[type="text"], .navbar-search input[type="text"]:focus, .primary-nav .dropdown-menu a img, .primary-nav .dropdown-menu a:hover img, .yamm .dropdown-menu, .yamm .dropdown:hover .dropdown-menu, .dropdown:hover .dropdown-menu, .dropdown-menu, .open > .dropdown-menu, .overlay:hover .hover-btn, #home-rotator .home-rotator-navigation #next, #home-rotator .home-rotator-navigation #prev, #home-rotator:hover .home-rotator-navigation #prev, #home-rotator:hover .home-rotator-navigation #next, a .gallery-carousel-slide-title, a:hover .gallery-carousel-slide-title, .tool-btn > i, .interview-slide-wrap .interviews-carousel-slide-title, .interview-slide-wrap:hover .interviews-carousel-slide-title, .video-slide-wrap .videos-carousel-slide-title, .video-slide-wrap:hover .videos-carousel-slide-title, .gallery-slide-wrap .galleries-carousel-slide-title, .gallery-slide-wrap:hover .galleries-carousel-slide-title, .iosSlider .slider .item.selected a:hover img, .iosSlider .slider .item.selected img, .slides .item.selected img, .iosSlider .slider .item.selected .inner .text1 {
-	-webkit-transition: 0.4s;
-	-moz-transition: 0.4s;
-	-ms-transition: 0.4s;
-	-o-transition: 0.4s;
-	transition: 0.4s;
+	-webkit-transition: 0.05	;
+	-moz-transition: 0.05s;
+	-ms-transition: 0.05s;
+	-o-transition: 0.05s;
+	transition: 0.05s;
 }
 .tool-btn:hover > .tool-text, .tool-btn > .tool-text, .overlay .hover-btn, .navbar-nav .menu-item a, .navbar-nav .menu-item a:hover {
-	-webkit-transition: 0.5s;
-	-moz-transition: 0.5s;
-	-ms-transition: 0.5s;
-	-o-transition: 0.5s;
-	transition: 0.5s;
+	-webkit-transition: 0.15s;
+	-moz-transition: 0.15s;
+	-ms-transition: 0.15s;
+	-o-transition: 0.15s;
+	transition: 0.15s;
 }
 /* =============================================
 
@@ -185,7 +185,7 @@ a, .navbar-nav a, .secondary-nav .nav .open>a, .secondary-nav .nav .open>a:hover
 	color: #000;
 }
 .btn-default, .nav>li>a:hover, .nav>li>a:focus, .navbar-search input[type="text"]:focus, .primary-nav .dropdown-menu, .primary-nav .dropdown:hover, .primary-nav .dropdown:hover > a, .navbar-nav a.dropdown-post-title, .sub-links a, .page-nav a, .dropdown-menu>li>a:hover, .nav-social a, .image-holder .hover, .tag-holder a, .icon-post-holder, .blocks .post-content-holder a, .blocks .post-content-holder h3 a:hover, .mosaic .post-content-holder a, .mosaic .post-content-holder h3 a:hover, .category-box, .category-box p a, .home-rotator-navigation #prev, .home-rotator-navigation #next, .homepage-gallery-carousel-navigation h3, .homepage-gallery-carousel-arrows > a, .gallery-carousel-slide-title, .interviews-carousel-slide-title, .interviews-tools .action-tool, .interviews-tools .share-tool, .interview-more, .interview-more:hover, .interviews-slide-sub-title a, .homepage-interviews-carousel-arrows > a:hover, #footer h3.widget-title, .newsletter-subscribe input.form-control, .newsletter-subscribe button[type="submit"], #footer a, #footer .twitter-item .fa-twitter, .tags-wrap a, .tags a, .tagcloud a, .btn-post-share:hover, .video-container .component_next-article i, .video-container .component_previous-article i, .video-container .btn-icon:hover, .video-container .component_next-article, .video-container .component_previous-article, .video-container .btn-icon, .video-container .component_next-article:hover, .video-container .component_previous-article:hover, .video-container .btn-icon:hover, .videos-carousel-slide-title, .galleries-carousel-slide-title, .video-slide-wrap:hover .videos-slide-category, .gallery-slide-wrap:hover .galleries-slide-category, .galleries-slide-sub-title a, .related-gallery-carousel-arrows > a:hover, .videos-slide-sub-title a, .related-video-carousel-arrows > a:hover, .latest-post-gallery-carousel-prev, .latest-post-gallery-carousel-next, .featured-post-gallery-carousel-prev, .featured-post-gallery-carousel-next, .latest-interviews-carousel-prev, .latest-interviews-carousel-next, #share-page, #share-page a, .iosSlider .slider .item .inner .text1 span, .slides .item .inner .text1 span, .flexslider span.category-name a, .flex-direction-nav a, .ei-title h2, .flex-direction-nav a:before, .component_next-article.active:hover i, .component_previous-article.active:hover i, .post-category a:hover, .post a:hover, .btn-icon:hover, .comment-reply-link:hover, .tags-wrap a:hover, .tags a:hover, a.read-more:hover, .share-page a:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus, #today, #footer .tagcloud a:hover, .form-submit #submit, .home-rotator-navigation #prev, .home-rotator-navigation #next, .ei-slider-thumbs li.ei-slider-element, a:hover .gallery-carousel-slide-title, .interview-slide-wrap:hover .interviews-carousel-slide-title, .video-slide-wrap:hover .videos-carousel-slide-title, .gallery-slide-wrap:hover .galleries-carousel-slide-title, .latest-post-gallery-carousel-prev:hover, .latest-post-gallery-carousel-next:hover, .latest-interviews-carousel-prev:hover, .latest-interviews-carousel-next:hover, .featured-post-gallery-carousel-prev:hover, .featured-post-gallery-carousel-next:hover, #footer .latest-post-gallery-carousel-prev:hover, #footer .latest-post-gallery-carousel-next:hover, #footer .latest-interviews-carousel-prev:hover, #footer .latest-interviews-carousel-next:hover, #footer .featured-post-gallery-carousel-prev:hover, #footer .featured-post-gallery-carousel-next:hover, #galleries-carousel-prev:hover, #galleries-carousel-next:hover, .home-rotator-navigation #prev:hover, .home-rotator-navigation #next:hover, .newsletter-subscribe button[type="submit"]:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus, .page-numbers.current, #secondary-nav > .menu-item a:hover, .instagram-slider-prev, .instagram-slider-next, .instagram-slider-prev:hover, .instagram-slider-next:hover, .btn.btn-default:hover {
-	color: #fff;
+	color: #000;
 }
 .tagcloud a:hover, .tag-holder a:hover, .tag-holder a, .post-meta a:hover, .tags-wrap a, .interviews-slide-sub-title a:hover, .video-container .btn-post-share i, .videos-slide-sub-title a:hover, .post-author a:hover, #gallery-carousel-next, #gallery-carousel-prev {
 	color: #fff !important;
@@ -199,8 +199,8 @@ a, .navbar-nav a, .secondary-nav .nav .open>a, .secondary-nav .nav .open>a:hover
 	font-family: "kenzoregular";
 }
 .btn-default, .nav>li>a:hover, .nav>li>a:focus, .navbar-search input[type="text"]:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus, .primary-nav .dropdown-menu, .primary-nav .dropdown:hover, .primary-nav .dropdown:hover > a, .secondary-nav, .category-box, .slide, #homepage-gallery-carousel, #homepage-interviews-carousel-navigation-wrapper .cycle-carousel-wrap, .footer-2-wrapper, .post-image .btn-icon:hover, .tags-wrap a, .tags a, .tagcloud a, .btn-post-share:hover, .component_next-article.active:hover, .component_previous-article.active:hover, .video-container, .video-container .component_next-article, .video-container .component_previous-article, .video-container .btn-icon, #related-video-carousel-navigation-wrapper .cycle-carousel-wrap, #related-gallery-carousel-navigation-wrapper .cycle-carousel-wrap, .sliderContainer, .ei-slider-thumbs li a, .alter_img, tags-wrap a {
-	background: #000;
-	background-color: #000;
+	background: #f9f9f9;
+	background-color: #f9f9f9;
 }
 .post-content-holder h3 a:hover, .archive-video .post .post-title a:hover, .archive-interview .post .post-title a:hover {
 	background: none !important;
@@ -441,8 +441,8 @@ Custom Classes
 ============================================= */
 
 .holder img {
-	width: auto;
-	height: 100%;
+	height: auto;
+	width: 100%;
 }
 .vertical-divisor {
 	border-left: 1px solid #b4b4b4;
@@ -760,6 +760,7 @@ Post
 	display: block;
 	overflow: hidden;
 	margin: 0 auto;
+	padding: 15px;
 }
 .image-holder a.overlay {
 	display: block;
@@ -773,12 +774,12 @@ Post
 	color: black;
 }
 .overlay:hover img {
-	-webkit-transform: scale(1.05, 1.07) rotate(2deg);
+	-webkit-transform: scale(1.05, 1.07) rotate(.5deg);
 	-webkit-transition-timing-function: ease-out;
-	-webkit-transition-duration: 250ms;
-	-moz-transform: scale(1.05, 1.07) rotate(2deg);
-	-moz-transition-timing-function: ease-out;
-	-moz-transition-duration: 250ms;
+	-webkit-transition-duration: 100ms;
+	-moz-transform: scale(1.05, 1.07) rotate(.5deg);
+	-moz-transition-timing-function: ease;
+	-moz-transition-duration: 100ms;
 	display: block;
 	vertical-align: center;
 	text-align: center;
@@ -790,7 +791,7 @@ Post
 	display: block;
 	padding: 0;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	vertical-align: center;
 	text-align: center;
 	font-weight: 700;
@@ -806,9 +807,8 @@ Post
 	transition: opacity .75s ease-in-out;
 }
 .overlay .hover-btn i {
-	position: absolute;
-	top: 2px;
-	left: 2px;
+	vertical-align: text-bottom;
+	margin: 0 auto;
 	font-size: 24px;
 	color: black;
 }
@@ -820,6 +820,10 @@ Post
 	border: 1px solid #000;
 	color: black;
 	margin-left: 33.33%;
+	align-self: center;
+	margin-top: 50%;
+	justify-content: center;
+	display: none;
 }
 .overlay:hover .hover-btn {
 	top: 43%;
@@ -849,7 +853,7 @@ Post
 	bottom: 20px;
 	right: 20px;
 	z-index: 1;
-	display: inline-block;
+	display: none;
 	padding: 6px 10px;
 	max-width: 120px;
 	background: rgba(0,0,0, .85);
@@ -936,8 +940,8 @@ Homepage Mosaic Layout
 	vertical-align: middle;
 }
 .mosaic .post-entry-holder {
-	margin: 0 0 20px;
-}
+/*	margin: 0 0 20px;
+*/}
 .mosaic .post-content-holder-large .post-entry-holder {
 	padding: 0 60px;
 }

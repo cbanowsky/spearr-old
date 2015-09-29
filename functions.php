@@ -354,7 +354,7 @@ add_filter( 'excerpt_length', 'unpress_excerpt_length' );
 
 // Excerpt more
 function unpress_excerpt_more( $more ) {
-	return '...';
+	return '... READ MORE';
 }
 add_filter( 'excerpt_more', 'unpress_excerpt_more' );
 
