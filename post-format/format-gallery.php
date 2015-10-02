@@ -16,7 +16,7 @@ if ( have_posts() ) :
   fave_setPostViews(get_the_ID()); 
 ?>
 
-<section class="container gallery gallery-title">
+<section class="gallery gallery-title">
 	<div class="row">
 		<div class="col-md-12">
 			<ul class="list-inline post-category">
@@ -45,16 +45,8 @@ if ( have_posts() ) :
 	</div>
 </section>
 
-<section class="gallery-container">
-	<div class="container">
- 		<?php get_template_part( 'inc/post_gallery', 'carousel' ); ?>
-	
-
- </div>
-</section>
-				
-				
 <section>
+ 		<?php get_template_part( 'inc/post_gallery', 'carousel' ); ?>
 
 	<?php get_template_part("inc/common-single") ;?>
     
@@ -64,7 +56,6 @@ if ( have_posts() ) :
 	
     <?php if($ft_option['posts_default_sidebar_on']== 0 ): ?>
 		<?php if(! get_field( 'post_sidebar' ) || get_field( 'post_sidebar' ) == "post_sidebar_off"):?>
-        <div class="container">
             <div class="article_nav single-gallery-article_nav">
                 <?php if($ft_option["single_nav_arrows"]=="1"):?>
                 <!-- Article nav -->
@@ -72,9 +63,7 @@ if ( have_posts() ) :
                 <!-- End article nav -->
                 <?php endif; ?>
             </div>	
-        </div>
         <?php endif; ?>
     <?php endif; ?>
-	
 </section>
 <?php endwhile; wp_reset_query(); endif; ?>

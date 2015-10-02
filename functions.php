@@ -47,7 +47,7 @@ function unpress_setup() {
 	add_image_size( 'masonry-size', 434, 9999);
 	add_image_size( 'mosaic-size', 610, 610, true );
 	add_image_size( 'block-size', 432, 432, true );
-	add_image_size( 'gallery-carousel', 320, 320, true );
+	//add_image_size( 'gallery-carousel', 320, 320, true );
 	add_image_size( 'video-related', 316, 316, true );
 	add_image_size( 'gallery-img', 418, 418, true );
 	add_image_size( 'gallery-single', 365, 500, true );
@@ -79,7 +79,7 @@ function unpress_setup() {
 	 * See http://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
-		'video','gallery','audio',
+		'video','gallery','audio', 'slideshow' ,
 	) );
 	
 	// This theme uses its own gallery styles.
