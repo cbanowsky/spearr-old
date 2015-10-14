@@ -289,7 +289,7 @@ $(window).load(function(e) {
 			scroll : {
 				items           : 1,
 				easing          : "quadratic",
-				duration        : 500,                         
+				duration        : 250,                         
 				pauseOnHover    : true
 			},
 			mousewheel: false,
@@ -308,7 +308,7 @@ $(window).load(function(e) {
 		scroll : {
 			items           : 1,
 			easing          : "quadratic",
-			duration        : 500,                         
+			duration        : 250,                         
 			pauseOnHover    : true
 		},
 		mousewheel: false,

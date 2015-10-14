@@ -49,8 +49,8 @@ function unpress_setup() {
 	add_image_size( 'block-size', 432, 432, true );
 	//add_image_size( 'gallery-carousel', 320, 320, true );
 	add_image_size( 'video-related', 316, 316, true );
-	add_image_size( 'gallery-img', 418, 418, true );
-	add_image_size( 'gallery-single', 365, 500, true );
+	add_image_size( 'gallery-img', 418, 418, false );
+	add_image_size( 'gallery-single', 365, 500, false );
 	add_image_size( 'interview-carousel', 327, 450, true );
 	add_image_size( 'interview-img', 450, 9999);
 	add_image_size( 'widget-slider', 580, 580, true );
