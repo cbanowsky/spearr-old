@@ -125,7 +125,7 @@ Fonts
 
 @font-face {
     font-family: 'kenzoitalic';
-    src: url('fonts/kenzo_regular_italic-webfont.eot');
+    src: url('fonts/kenzo_regular_italic-webfont.eot'),
     src: url('fonts/kenzo_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/kenzo_regular_italic-webfont.woff2') format('woff2'),
          url('fonts/kenzo_regular_italic-webfont.woff') format('woff'),
@@ -138,7 +138,7 @@ Fonts
 
 @font-face {
     font-family: 'kenzoregular';
-    src: url('fonts/kenzo_regular-webfont.eot');
+    src: url('fonts/kenzo_regular-webfont.eot'),
     src: url('fonts/kenzo_regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/kenzo_regular-webfont.woff2') format('woff2'),
          url('fonts/kenzo_regular-webfont.woff') format('woff'),

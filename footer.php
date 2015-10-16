@@ -24,8 +24,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <!--<div class="pull-left"><a href="#">unPress Magazine</a> - All right reserved</div>-->
-                    <div class="pull-right"><?php echo $ft_option["copyright_text"]; ?></div>
+                    <div class="pull-left"><a href="#">SPEARR</a> - All right reserved</div>
+                    <!--<div class="pull-right"><?php echo $ft_option["copyright_text"]; ?></div>-->
                 </div>
             </div>
         </div>	
