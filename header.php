@@ -53,8 +53,8 @@ else:
 endif;
 ?>
 <body <?php body_class($body_class); ?>>
-<script type="text/javascript">
-WebFontConfig = { fontdeck: { id: '57964' } };
+<!-- <script type="text/javascript">
+WebFontConfig = { fontdeck: { id: '57962' } };
 
 (function() {
   var wf = document.createElement('script');
@@ -65,7 +65,7 @@ WebFontConfig = { fontdeck: { id: '57964' } };
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(wf, s);
 })();
-</script>
+</script -->
 <div id="outer-wrap">
 <div id="inner-wrap1">
     <div id="pageslide">

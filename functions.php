@@ -13,7 +13,7 @@ if ( ! isset( $content_width ) ) $content_width = 1050; /* pixels */
 define('FT_FUNCTIONS', get_template_directory()  . '/inc');
 define('FT_INDEX_JS', get_template_directory_uri()  . '/js');
 define('FT_INDEX_CSS', get_template_directory_uri()  . '/css');
-
+//define('FT_INDEX_FONTS', get_template_directory_uri() . '/fonts');
 if ( ! function_exists( 'unpress_setup' ) ) :
 /**
  * UnPress setup.

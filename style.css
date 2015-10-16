@@ -139,7 +139,7 @@ Fonts
 @font-face {
     font-family: 'kenzoregular';
     src: url('fonts/kenzo_regular-webfont.eot'),
-    src: url('fonts/kenzo_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/kenzo_regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/kenzo_regular-webfont.woff2') format('woff2'),
          url('fonts/kenzo_regular-webfont.woff') format('woff'),
          url('fonts/kenzo_regular-webfont.ttf') format('truetype'),
