@@ -21,6 +21,16 @@ Modifications
 	margin-left: 10px;
 }
 
+.list-unstyled {
+	text-align: center;
+}
+
+.list-unstyled li {
+    
+    /*border-bottom: 2px solid #000;*/
+    margin-bottom: 20px;
+}
+
 
 /* =============================================
 Fonts
@@ -956,6 +966,7 @@ Category Box
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 30px;
+	border: 1px solid #000;
 }
 .category-box h2 {
 	position: absolute;
@@ -1598,7 +1609,7 @@ Post Nav
 	width: 44px;
 	overflow: visible;
 	border: 1px solid #000;
-	line-height: 48px;
+	line-height: 20px;
 	display: block;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -1615,7 +1626,7 @@ component_previous-article {
 .component_next-article i, .component_previous-article i {
 	position: relative;
 	top: -2px;
-	font-size: 20px;
+	font-size: 22px;
 }
 .component_next-article .next-article_wrapper, .component_previous-article .next-article_wrapper, .component_next-article .previous-article_wrapper, .component_previous-article .previous-article_wrapper {
 	width: 0;
@@ -1645,7 +1656,7 @@ component_previous-article {
 }
 .component_next-article .next-article_wrapper .next-article_details .next-article_header, .component_previous-article .next-article_wrapper .next-article_details .next-article_header, .component_next-article .previous-article_wrapper .next-article_details .next-article_header, .component_previous-article .previous-article_wrapper .next-article_details .next-article_header, .component_next-article .next-article_wrapper .previous-article_details .next-article_header, .component_previous-article .next-article_wrapper .previous-article_details .next-article_header, .component_next-article .previous-article_wrapper .previous-article_details .next-article_header, .component_previous-article .previous-article_wrapper .previous-article_details .next-article_header, .component_next-article .next-article_wrapper .next-article_details .previous-article_header, .component_previous-article .next-article_wrapper .next-article_details .previous-article_header, .component_next-article .previous-article_wrapper .next-article_details .previous-article_header, .component_previous-article .previous-article_wrapper .next-article_details .previous-article_header, .component_next-article .next-article_wrapper .previous-article_details .previous-article_header, .component_previous-article .next-article_wrapper .previous-article_details .previous-article_header, .component_next-article .previous-article_wrapper .previous-article_details .previous-article_header, .component_previous-article .previous-article_wrapper .previous-article_details .previous-article_header {
 	width: 280px;
-	height: 88px;
+	height: 125px;
 	float: left;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;

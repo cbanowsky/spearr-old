@@ -128,8 +128,7 @@ class UnPress_Menu extends Walker_Nav_Menu {
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 									<a href="' .$post_link . '">'.$menu_post_image.'</a>
 									<a class="dropdown-post-title" href="' .$post_link . '">'. $post_title .'</a>
-								</div>';
-						
+								</div>';				
 					endforeach;
 					wp_reset_query();
 					

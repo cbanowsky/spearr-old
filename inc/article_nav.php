@@ -18,8 +18,10 @@ if($prevPost) {
         <div class="next-article_wrapper">
             <div class="next-article_details">
                 <header class="next-article_header">
-                    <h3><?php the_title(); ?></h3>
-                    <em><?php _e("by","favethemes"); ?> <?php the_author(); ?></em>
+                    <h3><b><?php the_title(); ?></b></h3>
+<!--                     <em><?php _e("by","favethemes"); ?> <?php the_author(); ?></em>
+ -->                    <em><?php the_excerpt(); ?></em>
+
                 </header>
                 <div class="next-article_image">
                     <?php the_post_thumbnail('thumbnail'); ?>
@@ -51,9 +53,11 @@ if($prevPost) {
         <div class="previous-article_wrapper">
             <div class="previous-article_details">
                 <header class="previous-article_header">
-                    <h3><?php the_title(); ?></h3>
-                    <em><?php _e("by","favethemes"); ?> <?php the_author(); ?></em>
-                </header>
+                    <h3><b><?php the_title(); ?></b></h3>
+<!--                     <em><?php _e("by","favethemes"); ?> <?php the_author(); ?></em>
+ -->               
+                        <em><?php the_excerpt(); ?></em>
+                 </header>
                 <div class="previous-article_image">
                     <?php the_post_thumbnail('thumbnail'); ?>
                 </div>
