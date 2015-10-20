@@ -8,7 +8,7 @@ endif;
 
 <div id="post-<?php the_ID(); ?>" <?php post_class($masonry_class); ?>>
     <div class="featured-image image-holder holder">
-        <?php unpress_masonry_image(); ?>
+     <?php unpress_masonry_image(); ?>
     </div><!-- .featured-image -->
     
     <div class="post-content-holder">

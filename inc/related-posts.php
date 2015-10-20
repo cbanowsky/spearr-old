@@ -61,6 +61,9 @@ endif;
 ?>
 
 <section class="<?php echo $class_section; ?>">
+<div class="more">
+<h2>VIEW MORE</h2>
+</div>
 	<div class="row">
 		<div class="<?php echo $class_col2; ?>">
 			<div class="row post-row">
