@@ -10,41 +10,6 @@ Text Domain: hack.cd
 */
 
 /* =============================================
-Modifications
-*/
-.yamm .nav li{
-	margin-right: 250px;
-	margin-top: 20px;
-}
-
-.yamm .nav {
-	margin-left: 10px;
-}
-
-.list-unstyled {
-	text-align: center;
-}
-
-.list-unstyled li {
-    
-    /*border-bottom: 2px solid #000;*/
-    margin-bottom: 20px;
-}
-
-/* =============================================
-Related Header
-==============================================*/
-.more h2 {
-	display: block;
-	color: #fff;
-	background: #000;
-	font-family: kenzoregular;
-	text-align: center;
-	font-size: 36px;
-
-}
-
-/* =============================================
 Fonts
 ============================================= */
 @font-face {
@@ -170,6 +135,47 @@ Fonts
     font-style: normal;
 
 }
+
+/* =============================================
+Modifications
+*/
+.yamm .nav li{
+	margin-right: 250px;
+	margin-top: 20px;
+}
+
+.yamm .nav {
+	margin-left: 10px;
+}
+
+.list-unstyled {
+	text-align: center;
+}
+
+.list-unstyled li {
+    
+    /*border-bottom: 2px solid #000;*/
+    margin-bottom: 20px;
+}
+
+.wpsdc-drop-cap {
+    font-size: 3em;
+    font-family: 'Eksell Display Medium', serif;
+}
+/* =============================================
+Related Header
+==============================================*/
+.more h2 {
+	display: block;
+	color: #fff;
+	background: #000;
+	font-family: 'kenzoregular';
+	text-align: center;
+	font-size: 36px;
+
+}
+
+
 /*==============================================
 Large Configuration Variables
 ============================================== */
@@ -245,7 +251,7 @@ body {
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 25px;
-	font-family: "Open-Sans" sans-serif;
+/*	font-family: "Open-Sans" sans-serif;*/
 }
 a:hover {
 	text-decoration: none;
@@ -774,7 +780,7 @@ Post
 }
 .post-entry-holder p {
 	margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     font-size: 14px;
 }
 .image-holder {
@@ -796,10 +802,10 @@ Post
 	color: black;
 }
 .overlay:hover img {
-	-webkit-transform: scale(1.05, 1.07) rotate(.5deg);
+	-webkit-transform: scale(1.05, 1.08) rotate(0deg);
 	-webkit-transition-timing-function: ease-out;
-	-webkit-transition-duration: 100ms;
-	-moz-transform: scale(1.05, 1.07) rotate(.5deg);
+	-webkit-transition-duratiomeron: 100ms;
+	-moz-transform: scale(1.05, 1.08) rotate(0deg);
 	-moz-transition-timing-function: ease;
 	-moz-transition-duration: 100ms;
 	display: block;
@@ -1522,6 +1528,10 @@ Post
 .entry-content {
 	margin-bottom: 60px;
 }
+.entry-content p {
+	font-family: "Open-Sans", sans-serif;
+	font-weight: normal;
+}
 .post-category {
 	font-size: 18px;
 	 margin: 0 0 10px -5px;
@@ -1546,7 +1556,7 @@ Post
 	margin: 20px 0 10px 0px;
 }
 .post-meta {
-	font-size: 18.5px;
+	font-size: 13.5px;
 	font-weight: bold;
 	font-style: normal;
 	margin: 0 0 10px;
@@ -2664,11 +2674,14 @@ Share page
 
 #share-page {
 	background: transparent;
+
 }
 #share-page li {
 	font-size: 64px;
 	font-weight: 100;
 	line-height: 84px;
+	color: #fff;
+
 }
 #share-page ul {
 	list-style: none;

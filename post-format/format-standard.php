@@ -76,9 +76,9 @@ global $ft_option;
 
           
                         
-						<h1 class="post-title"><?php the_title(); ?></h1>
+						<h1 class="post-title" style="font-family: 'Eksell Display Medium', serif; font-weight: bold;"><?php the_title(); ?></h1>
 
-						<div class="post-meta">
+						<div class="post-meta" style="text-transform: uppercase;">
 							
                             <?php if($ft_option["single_author_name"]=="1"):?>
 							

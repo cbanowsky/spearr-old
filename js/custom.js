@@ -118,10 +118,10 @@ $(function() {
 //iLightbox
 //////////////////////////////////////////////
 $('.ilightbox').iLightBox({ 
-	skin: 'dark',
-	path: 'vertical',
+	skin: 'light',
+	path: 'horizontal',
 	fullViewPort: 'fill',
-	infinite: false,
+	infinite: true,
 	styles: {
 		nextOffsetX: 0,
 		nextOpacity: .55,
@@ -138,7 +138,7 @@ $('.ilightbox').iLightBox({
 // WP Native Gallery
 //////////////////////////////////////////////
 $('.custom-gallery .gallery-item a').iLightBox({
-	skin: 'dark',
+	skin: 'light',
 	path: 'horizontal',
 	fullViewPort: 'fill',
 	infinite: false,
@@ -174,7 +174,7 @@ else{
 //////////////////////////////////////////////
 $('#show-inline').bind('click', function(event) {
 	event.preventDefault();
-	$.iLightBox([{ URL: '#share-page', type: 'inline' }]);
+	$.iLightBox([{ URL: '#share-page', type: 'inline'}]);
   });
 //////////////////////////////////////////////
 //Fluid Width Video

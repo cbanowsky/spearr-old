@@ -1,5 +1,5 @@
 <?php
-if ( get_sub_field( 'latest_posts_sidebar' ) == 'enable'):
+if ( get_sub_field( 'latest_posts_sidebar' ) == 'disable'):
 	$masonry_class = "post-holder col-lg-3 col-md-12 col-sm-12 col-xs-12";
 else:
 	$masonry_class = "post-holder col-lg-3 col-md-4 col-sm-6 col-xs-12";
@@ -13,7 +13,7 @@ endif;
     
     <div class="post-content-holder">
         <header>
-            <div class="category-crubs"><?php esc_attr( the_category(' | ') ); ?></div>
+            <!-- <div class="category-crubs"><?php esc_attr( the_category(' | ') ); ?></div> -->
             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                         
         </header>
