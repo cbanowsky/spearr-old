@@ -1,8 +1,8 @@
 <?php
 if ( get_sub_field( 'latest_posts_sidebar' ) == 'disable'):
-	$masonry_class = "post-holder col-lg-3 col-md-12 col-sm-12 col-xs-12";
+	$masonry_class = "post-holder col-lg-4 col-md-12 col-sm-12 col-xs-12";
 else:
-	$masonry_class = "post-holder col-lg-3 col-md-4 col-sm-6 col-xs-12";
+	$masonry_class = "post-holder col-lg-4 col-md-4 col-sm-6 col-xs-12";
 endif;
 ?>
 

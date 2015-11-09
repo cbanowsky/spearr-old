@@ -35,8 +35,8 @@ global $query_string;
 query_posts( $args );
 ?>
 
-<section class="container module blocks2">
-	<div class="row">
+<section class="container module blocks2" style="margin: 0 0 auto;">
+	<div class="row" style="margin: 0 0 auto;">
 		
         <?php 
 		if(!get_sub_field( 'featured_section_title_position' ) || get_sub_field( 'featured_section_title_position' )=="left_side"):
@@ -45,7 +45,7 @@ query_posts( $args );
         		$class_box_title = "title-box-right";
         endif; ?>
         
-		<div class="col-lg-3 col-md-3 col-sm-4 sticky-col <?php echo $class_box_title; ?>">
+<!-- 		<div class="col-lg-3 col-md-3 col-sm-4 sticky-col <?php echo $class_box_title; ?>">
 			<div class="category-box sticky-box static_col">
             	<?php if( get_sub_field( 'featured_main_title' ) ): ?>
 						<h2><?php the_sub_field( 'featured_main_title' ); ?></h2>
@@ -54,11 +54,11 @@ query_posts( $args );
                 <p><?php the_sub_field( 'featured_sub_title' ); ?></p>
                 <?php endif; ?>
 			</div>
-		</div>
-   		
+		</div> -->
+   		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"></div>
         
-        <div class="col-lg-9 col-md-9 col-sm-8">
-			<div class="row post-row">
+        <div class="col-lg-6 col-md-9 col-sm-8">
+			<div class="row post-row" style="margin: 0 0 auto;">
 				
 				<?php 
 					if (have_posts()) :

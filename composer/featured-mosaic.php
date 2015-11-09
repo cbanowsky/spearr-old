@@ -43,7 +43,7 @@ query_posts( $args );
         		$class_box_title = "title-box-right";
         endif; ?>
         
-<!-- 		<div class="col-lg-3 col-md-3 col-sm-4 sticky-col <?php echo $class_box_title; ?>">
+ 	<!-- 	<div class="col-lg-3 col-md-3 col-sm-4 sticky-col <?php echo $class_box_title; ?>">
 			<div class="category-box sticky-box static_col">
             	<?php if( get_sub_field( 'featured_main_title' ) ): ?>
 						<h2><?php the_sub_field( 'featured_main_title' ); ?></h2>
@@ -52,7 +52,7 @@ query_posts( $args );
                 <p><?php the_sub_field( 'featured_sub_title' ); ?></p>
                 <?php endif; ?>
 			</div>
-		</div> -->
+		</div>  -->
         
         <div class="col-lg-12 col-md-12 col-sm-8">
 			<div class="row post-row" style="text-align: center;">
@@ -63,9 +63,9 @@ query_posts( $args );
                         while (have_posts()) : the_post(); 
 						
 						if($i<=2 || $i>=4):
-							echo '<div class="post-holder col-lg-3 col-md-12 col-sm-12 col-xs-12">';
+							echo '<div class="post-holder col-lg-6 col-md-12 col-sm-12 col-xs-12">';
 						else:
-							echo '<div class="post-holder col-lg-3 col-md-12 col-sm-12 col-xs-12">';
+							echo '<div class="post-holder col-lg-6 col-md-12 col-sm-12 col-xs-12">';
 						endif;
 						?>
 						

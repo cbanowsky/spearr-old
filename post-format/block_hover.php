@@ -1,7 +1,7 @@
 <?php
 global $ft_option;
 ?>
-<div id="post-<?php the_ID(); ?>" <?php post_class('post-holder col-lg-4 col-md-4 col-sm-6 col-xs-12'); ?>>
+<div id="post-<?php the_ID(); ?>" <?php post_class('post-holder col-lg-9 col-md-4 col-sm-6 col-xs-12'); ?>>
     <div class="featured-image image-holder holder">
         <ul>
             <li class="overlay">

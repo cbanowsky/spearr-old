@@ -60,9 +60,9 @@ query_posts( $args );
         <?php
 		if ( get_sub_field( 'latest_posts_sidebar' ) == 'enable' ):
 			
-			echo '<div class="col-lg-6 col-md-6 col-sm-4">';
+			echo '<div class="col-lg-8 col-md-6 col-sm-4">';
 		else:
-			echo '<div class="col-lg-9 col-md-9 col-sm-8">';
+			echo '<div class="col-lg-8 col-md-9 col-sm-8">';
 		endif;
 		?>
 			<div class="row post-row">

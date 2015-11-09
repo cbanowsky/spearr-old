@@ -58,7 +58,7 @@
         if (!get_field ( 'category_sidebar', 'category_' . get_query_var('cat') ) || get_field ( 'category_sidebar', 'category_' . get_query_var('cat') ) == "cat_sidebar_on" ):
 			echo '<div class="col-lg-6 col-md-6 col-sm-4">';
 		else:
-			echo '<div class="col-lg-9 col-md-9 col-sm-8">';
+			echo '<div class="col-lg-8 col-md-9 col-sm-8">';
 		endif;
 		?>
 		
@@ -92,7 +92,7 @@
         <?php
         if ( !get_field ( 'category_sidebar', 'category_' . get_query_var('cat') ) || get_field ( 'category_sidebar', 'category_' . get_query_var('cat') ) == "cat_sidebar_on" ):
         	
-			echo '<div class="col-md-3 col-sm-4">';
+			echo '<div class="col-md-8 col-sm-4">';
             	 	get_sidebar();
             echo '</div>';
 		endif;
