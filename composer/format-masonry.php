@@ -95,7 +95,7 @@ query_posts( $args );
 							
 			</div><!-- .row -->
 		</div><!-- .col-lg-9 -->
-               
+             
 	</div><!-- .row -->
 </section><!-- .container -->
 <?php

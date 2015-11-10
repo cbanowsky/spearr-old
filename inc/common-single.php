@@ -8,20 +8,20 @@ global $ft_option;
 
 <div class="container">
     <div class="row">
-        <?php
+<!--         <?php
 		if($ft_option['posts_default_sidebar_on']== 0 ): 
 			if(! get_field( 'post_sidebar' ) || get_field( 'post_sidebar' ) == "post_sidebar_off"):
 			
-					echo '<div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">';
+					echo '<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">';
 			else:
 					echo '<div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">';
 			endif;
 		else:
-			echo '<div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">';
+			echo '<div class="col-md-8 col-lg-9 col-sm-12 col-xs-12">';
 		endif;
-        ?>
+        ?> -->
         
-            <div class="entry-content">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 entry-content">
                 <?php the_content(); ?>
                 <?php
                 $args = array(
@@ -33,7 +33,7 @@ global $ft_option;
                 wp_link_pages( $args );
                 ?>
             </div>
-            
+<!--         <div class="col-lg-12 col-md-8 col-sm-8 col-xs-8">
             <?php if($ft_option['posts_default_sidebar_on']== 0 ): ?>
 				<?php if(get_field( 'post_sidebar' ) == "post_sidebar_on"):?>
                         <?php if( has_tag() ): ?>
@@ -43,7 +43,7 @@ global $ft_option;
                         </div><!-- .tags-wrap -->
                         <?php endif; ?>
                         <!-- .post-author-box -->
-                        <?php unpress_author_box(); ?>
+                        <?php unpress_author_box(); ?> -->
                         <!-- .end post-author-box -->
                 <?php endif; ?>
             <?php else: ?>
@@ -107,6 +107,7 @@ global $ft_option;
 				?>
             
         </div><!-- End: .col-md-8 or col-md-9 -->
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
         
         <?php if($ft_option['posts_default_sidebar_on'] == 0): ?>
 			<?php if(! get_field( 'post_sidebar' ) || get_field( 'post_sidebar' ) == "post_sidebar_off"):?>

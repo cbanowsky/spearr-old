@@ -55,13 +55,14 @@ if ( have_posts() ) :
 <section>
 	<div class="container">
 		<div class="row">
-			<?php 
+<!-- 			<?php 
 			if(! get_field( 'gallery_post_sidebar' ) || get_field( 'gallery_post_sidebar' ) == "gallery_post_sidebar_off"):
 				echo '<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">';
 			else:
 				echo '<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">';
 			endif;
-			?>
+			?> -->
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="entry-content">
 					<?php the_content(); ?>
 				</div>

@@ -171,6 +171,16 @@ Related Header
 	font-size: 36px;
 
 }
+.home-break h1{
+	display: block;
+	color: #fff;
+	background: #000;
+	font-family: 'kenzoregular';
+	text-align: center;
+	font-size: 68px;
+	padding-top: 250px;
+	padding-bottom: 250px;
+}
 
 
 /*==============================================
@@ -1997,13 +2007,16 @@ Gallery
 
 .gallery-container {
 	overflow: hidden;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
+	float: left;
+
 }
 #single-galleries-carousel {
 	position: relative;
-	width: 100%;
+	width: 400px;
 	overflow: hidden;
 	height: auto;
+	float: left;
 	margin: 0 0 auto;
 }
 #single-galleries-carousel-navigation-wrapper {
@@ -2046,9 +2059,8 @@ Gallery
 	background: transparent;
 }
 #single-galleries-carousel .slide img {
-	margin: 0 0 auto;
-	width: 100%;
 	height: auto;
+	margin-right: 300px;
 
 }
 .single-gallery-article_nav {
