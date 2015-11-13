@@ -83,4 +83,9 @@ query_posts( $args );
 		</div><!-- .col-lg-9 -->
         
 	</div><!-- .row -->
+	<div class="row">
+		<div class="cover-break">
+			<h1>BREAK #1</h1>
+			</div>
+		</div>
 </section><!-- .container -->

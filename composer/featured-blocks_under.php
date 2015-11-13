@@ -55,8 +55,6 @@ query_posts( $args );
                 <?php endif; ?>
 			</div>
 		</div> -->
-   		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"></div>
-        
         <div class="col-lg-6 col-md-9 col-sm-8">
 			<div class="row post-row" style="margin: 0 0 auto;">
 				
@@ -73,6 +71,7 @@ query_posts( $args );
 							
 			</div><!-- .row -->
 		</div><!-- .col-lg-9 -->
+
         
 	</div><!-- .row -->
 </section><!-- .container -->

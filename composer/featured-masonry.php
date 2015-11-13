@@ -55,8 +55,7 @@ query_posts( $args );
 	</div> -->
             
 			<div class="col-lg-12 col-md-9 col-sm-8">
-			<div class="row post-row">
-				
+			<div class="row post-row">				
 				<?php 
 					if (have_posts()) :
                         while (have_posts()) : the_post(); 
@@ -67,14 +66,10 @@ query_posts( $args );
                 endif;
 				wp_reset_query();
                 ?> 
-							
+				</div>
 			</div><!-- .row -->
 		</div><!-- .col-lg-9 -->
         
 	</div><!-- .row -->
-	<div class="row">
-		<div class="home-break">
-			<h1>LET'S PUT SOMETHING HERE</h1>
-			</div>
-		</div>
+
 </section><!-- .container -->

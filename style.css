@@ -162,26 +162,6 @@ Modifications
 /* =============================================
 Related Header
 ==============================================*/
-.more h2 {
-	display: block;
-	color: #fff;
-	background: #000;
-	font-family: 'kenzoregular';
-	text-align: center;
-	font-size: 36px;
-
-}
-.home-break h1{
-	display: block;
-	color: #fff;
-	background: #000;
-	font-family: 'kenzoregular';
-	text-align: center;
-	font-size: 68px;
-	padding-top: 250px;
-	padding-bottom: 250px;
-}
-
 
 /*==============================================
 Large Configuration Variables
@@ -277,6 +257,36 @@ Cam's CSS
 	display: inline-block;
 	vertical-align: middle;
 	list-style: none;
+}
+
+.more h2 {
+	display: block;
+	color: #fff;
+	background: #000;
+	font-family: 'kenzoregular';
+	text-align: center;
+	font-size: 36px;
+
+}
+.home-break h1{
+	display: block;
+	color: #fff;
+	background: #000;
+	font-family: 'kenzoregular';
+	text-align: center;
+	font-size: 68px;
+	padding-top: 250px;
+	padding-bottom: 250px;
+}
+.cover-break h1{
+	display: block;
+	color: #fff;
+	background: #000;
+	font-family: 'kenzoregular';
+	text-align: center;
+	font-size: 32px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 /* =============================================
@@ -811,12 +821,6 @@ Post
 	color: black;
 }
 .overlay:hover img {
-	-webkit-transform: scale(1.05, 1.08) rotate(0deg);
-	-webkit-transition-timing-function: ease-out;
-	-webkit-transition-duratiomeron: 100ms;
-	-moz-transform: scale(1.05, 1.08) rotate(0deg);
-	-moz-transition-timing-function: ease;
-	-moz-transition-duration: 100ms;
 	display: block;
 	vertical-align: center;
 	text-align: center;

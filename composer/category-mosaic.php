@@ -66,7 +66,7 @@ query_posts( $args );
             </div>
 		</div> -->
         
-        <div class="col-lg-9 col-md-9 col-sm-8">
+        <div class="col-lg-12 col-md-9 col-sm-8">
 			<div class="row post-row">
 				
 				<?php 
@@ -95,6 +95,9 @@ query_posts( $args );
 		</div><!-- .col-lg-9 -->
         
       </div><!-- .row -->
+      <div class="cover-break">
+      	<h1>Break No. 1</h1>
+      </div>
 </section><!-- .container -->
 <?php
 if(get_sub_field('category_pagination')=="enable"):

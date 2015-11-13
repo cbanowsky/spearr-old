@@ -48,25 +48,17 @@ query_posts( $args );
         elseif(get_sub_field( 'latest_section_title_position' )=="right_side"):
         		$class_box_title = "title-box-right";
         endif; ?> 
-        
-<!--         <div class="col-lg-3 col-md-3 col-sm-4 sticky-col <?php echo $class_box_title; ?>">
-			<div class="category-box sticky-box static_col">
-            	<?php if( get_sub_field( 'latest_posts_main_title' ) ): ?>
-						<h2><?php the_sub_field( 'latest_posts_main_title' ); ?></h2>
-                <?php endif; ?>
-			</div>
-		</div> -->
-        
-        
+
 		<?php
-		if ( get_sub_field( 'latest_posts_sidebar' ) == 'enable' ):
-			echo '<div class="col-lg-12 col-md-6 col-sm-4">';
+		if ( get_sub_field( 'latest_posts_sidebar' ) == 'disable' ):
+			echo '<div class="col-lg-12 col-md-12 col-sm-12">';
 			$with_sidebar = "mosaic_section_sidebar";
 		else:
-			echo '<div class="col-lg-8 col-md-9 col-sm-8">';
+			echo '<div class="col-lg-12 col-md-12 col-sm-12">';
 			$with_sidebar = "";
 		endif;
-		?>
+		?> -->
+			<div class="col-lg-12 col-md-12 col-sm-12">
 			<div class="row post-row">
 				
 				<?php 
@@ -76,9 +68,9 @@ query_posts( $args );
                         while (have_posts()) : the_post(); $i++;  
                         	
 							if($i==2 || $i==4):
-								echo '<div class="post-holder col-lg-8 col-md-8 col-sm-12 col-xs-12">';
+								echo '<div class="post-holder col-lg-12 col-md-8 col-sm-12 col-xs-12">';
 							else:
-                            	echo '<div class="post-holder col-lg-8 col-md-4 col-sm-12 col-xs-12 '.$with_sidebar.'">';
+                            	echo '<div class="post-holder col-lg-12 col-md-12 col-sm-12 col-xs-12 '.$with_sidebar.'">';
 							endif;
 							?>
                                 <?php get_template_part( 'post-format/mosaic', get_post_format() ); ?>
@@ -94,7 +86,7 @@ query_posts( $args );
 			</div><!-- .row -->
 		</div><!-- .col-lg-9 -->
         
-        <?php
+    <!--    <?php
 		// Enable/Disable sidebar based on the field selection
 		if ( get_sub_field( 'latest_posts_sidebar' ) == 'enable' ):
 		?>
@@ -102,7 +94,7 @@ query_posts( $args );
 				<?php dynamic_sidebar("magazine-sidebar"); ?>
 			</div>
 		
-		<?php endif; ?>
+		<?php endif; ?> -->
         
 	</div><!-- .row -->
 </section><!-- .container -->

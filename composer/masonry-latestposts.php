@@ -68,7 +68,7 @@ query_posts( $args );
                     	endwhile; 
                 endif;
                 ?> 
-							
+
 			</div><!-- .row -->
 				<div class="row">
 		<div class="home-break">
