@@ -23,14 +23,14 @@ class UnPress_Menu extends Walker_Nav_Menu {
 		
     function start_lvl(&$output, $depth = 0, $args = array()) {
         $indent = str_repeat("\t", $depth);
-        $output .= "\n$indent<div class=\"row\">\n<div class=\"post-row\"><div class=\"sub-links col-lg-4 col-md-4 col-sm-4 col-xs-12\"><ul class='list-unstyled'>\n";
+        $output .= "\n$indent<div class=\"row\">\n<div class=\"sub-links col-lg-12 col-md-12 col-sm-4 col-xs-12\"><ul class='list-unstyled'>\n";
 		
 		
     }
 	
     function end_lvl(&$output, $depth = 0, $args = array()) {
         $indent = str_repeat("\t", $depth);
-        $output .= "$indent</ul></div></div></div>\n";
+        $output .= "$indent</ul></div>\n";
     }
 	
     function start_el( &$output, $item, $depth = 0, $args = array(), $current_object_id = 0 ) {
@@ -125,7 +125,7 @@ class UnPress_Menu extends Walker_Nav_Menu {
 						}
 						
 						$item_output .= '
-								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12">
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 									<a href="' .$post_link . '">'.$menu_post_image.'</a>
 									<a class="dropdown-post-title" href="' .$post_link . '">'. $post_title .'</a>
 								</div>';				

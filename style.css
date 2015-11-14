@@ -686,7 +686,7 @@ Primary Nav
 }
 .sub-links li {
 	padding: 0px 0 5px;
-	display: inline;
+	display: inline-block;
 	vertical-align: baseline;
 	margin-bottom: 25px;
 }
