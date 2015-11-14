@@ -15,9 +15,6 @@ global $ft_option;?>
     font-family: 'kenzoregular';
     src: url('../fonts/kenzo_regular-webfont.eot');
     src: url('../fonts/kenzo_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/kenzo_regular-webfont.woff2') format('woff2'),
-         url('../fonts/kenzo_regular-webfont.woff') format('woff'),
-         url('../fonts/kenzo_regular-webfont.ttf') format('truetype'),
          url('../fonts/kenzo_regular-webfont.svg#kenzoregular') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -34,7 +31,10 @@ if($ft_option['google_body'] != '0') {
 }
 ?>
 body, 
-.sub-links li, 
+.sub-links li {
+	display: inline-block;
+	width: 100%;
+}
 .homepage-gallery-carousel-navigation h3, 
 .featured-video-title p, .tool, 
 .homepage-interviews-carousel-navigation h3, 
