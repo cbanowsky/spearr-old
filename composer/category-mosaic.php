@@ -76,7 +76,7 @@ query_posts( $args );
                         while (have_posts()) : the_post(); $i++;  
                         	
 							if($i==2 || $i==4):
-								echo '<div class="post-holder col-lg-8 col-md-8 col-sm-12 col-xs-12">';
+								echo '<div class="post-holder large-mosaic col-lg-8 col-md-8 col-sm-12 col-xs-12">';
 							else:
                             	echo '<div class="post-holder col-lg-4 col-md-4 col-sm-12 col-xs-12">';
 							endif;
