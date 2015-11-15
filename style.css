@@ -3706,12 +3706,13 @@ p{font-size:14px !important;margin:0
 	-o-transition: opacity .75s ease-in-out;
 	transition: opacity .75s ease-in-out;
 }
-
 .display-post-content-for-mosaic .overlay:hover .mosaic-post-content-holder {
 	opacity: 1;
 }
-.large-mosaic .display-post-content-for-mosaic .mosaic-post-content-holder {
-	opacity: 1;
+@media (min-width: 992px) {
+	.large-mosaic .display-post-content-for-mosaic .mosaic-post-content-holder {
+		opacity: 1;
+	}
 }
 .display-post-content-for-mosaic .mosaic-post-content-display {
 	background-color: rgba(255, 255, 255, 0.85);
@@ -3735,9 +3736,6 @@ p{font-size:14px !important;margin:0
 }
 .display-post-content-for-mosaic .mosaic-hover-holder .mosaic-post-read-more {
 	color: #444;
-}
-.display-post-content-for-mosaic .overlay:hover .mosaic-hover-holder .mosaic-post-read-more {
-	color: #111;
 }
 .display-post-content-for-mosaic .hover {
 	position: absolute;

@@ -2,7 +2,7 @@
     <ul class="overlay">
 		<span class="hover"></span>
         <div class="mosaic-post-content-holder">
-            <div class="mosaic-post-content-display hidden-md hidden-sm">
+            <div class="mosaic-post-content-display">
                 <header>
                     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                     
@@ -16,7 +16,7 @@
 						): ?>
                 <div class="post-entry-holder">
                     <?php the_excerpt(); ?>
-                </div><!-- .post-entry-holder hidden-md hidden-sm hidden-sm-->
+                </div><!-- .mosaic-post-content-display -->
                 <?php endif; ?>
                 <div class="mosaic-hover-holder">
 	                <a href="<?php the_permalink(); ?>" class="mosaic-post-read-more">VIEW MORE</a>
