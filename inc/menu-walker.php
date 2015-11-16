@@ -23,9 +23,7 @@ class UnPress_Menu extends Walker_Nav_Menu {
 		
     function start_lvl(&$output, $depth = 0, $args = array()) {
         $indent = str_repeat("\t", $depth);
-        $output .= "\n$indent<div class=\"row\">\n<div class=\"sub-links col-lg-12 col-md-12 col-sm-4 col-xs-12\"><ul class='list-unstyled'>\n";
-		
-		
+        $output .= "\n$indent<div class=\"col-md-4\">\n<ul class='list-unstyled'>\n";
     }
 	
     function end_lvl(&$output, $depth = 0, $args = array()) {
@@ -102,12 +100,13 @@ class UnPress_Menu extends Walker_Nav_Menu {
 			
 			if ( ! get_field( 'latest_posts_menu', 'category_' . $cat ) || get_field( 'latest_posts_menu', 'category_' . $cat ) == 'latest_posts_on' ){ // Add Posts to menu if 'latest_posts' field is set to 'Add'
 				
-				$item_output .= '<div class="sub-posts col-lg-8 col-md-8 col-sm-6 col-xs-12">
-								 <div class="row" height="50%">';
+				// $item_output .= '<div class="sub-posts col-lg-8 col-md-8 col-sm-6 col-xs-12">
+				// 				 <div class="row" height="50%">';
+				$item_output .= '<div class="col-md-8">';
 					
 					
 					global $post;
-					$post_args = array( 'numberposts' => 3, 'offset'=> 0, 'category' => $cat );
+					$post_args = array( 'numberposts' => 4, 'offset'=> 0, 'category' => $cat );
 					$menuposts = get_posts( $post_args );
 					
 					foreach( $menuposts as $post ) : setup_postdata( $post );
@@ -125,14 +124,15 @@ class UnPress_Menu extends Walker_Nav_Menu {
 						}
 						
 						$item_output .= '
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 									<a href="' .$post_link . '">'.$menu_post_image.'</a>
 									<a class="dropdown-post-title" href="' .$post_link . '">'. $post_title .'</a>
 								</div>';				
 					endforeach;
 					wp_reset_query();
 					
-				$item_output .= '</div></div>';
+				// $item_output .= '</div></div>';
+				$item_output .= '</div>';
 				
 			}
 			

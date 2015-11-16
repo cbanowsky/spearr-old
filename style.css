@@ -3212,9 +3212,9 @@ Flexislider
 	left: -12px;
 	top: -9px;
 }
-.flexslider:hover .flex-prev {
+/*.flexslider:hover .flex-prev {
 	opacity: 1;
-}
+}*/
 /* =============================================
 
 Elastic slider
@@ -3690,7 +3690,9 @@ p{font-size:14px !important;margin:0
 4px}
 
 /*Styles added by Shamim*/
-.display-post-content-for-mosaic {}
+.display-post-content-for-mosaic {
+	padding: 0;
+}
 .display-post-content-for-mosaic .overlay {
 	position: relative;
 }
@@ -3709,10 +3711,8 @@ p{font-size:14px !important;margin:0
 .display-post-content-for-mosaic .overlay:hover .mosaic-post-content-holder {
 	opacity: 1;
 }
-@media (min-width: 992px) {
-	.large-mosaic .display-post-content-for-mosaic .mosaic-post-content-holder {
-		opacity: 1;
-	}
+.flexslider .display-post-content-for-mosaic .mosaic-post-content-holder {
+	opacity: 1;
 }
 .display-post-content-for-mosaic .mosaic-post-content-display {
 	background-color: rgba(255, 255, 255, 0.85);
@@ -3752,4 +3752,15 @@ p{font-size:14px !important;margin:0
 }
 .display-post-content-for-mosaic .overlay:hover .hover {
 	opacity: 0.55;
+}
+.mosaic-row {
+	margin-left: -30px;
+	margin-right: -30px;
+	margin-bottom: 30px;
+}
+.mosaic-row .last {
+	margin-top: 30px;
+}
+.mosaic-slider .flex-direction-nav a:before {
+	color: #fff;
 }

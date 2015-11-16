@@ -22,8 +22,8 @@ if( !dtGlobals.isMobile ){
 	$('.woocommerce-tabs .nav-tabs').find("li:first").addClass('active');
 	$('.tab-content').find(".tab-pane:first").addClass('active');
 	
-	$('.wysiwyg_editor_section ul').removeClass('unpress-block-grid-4');
-	$('.wysiwyg_editor_section ul').addClass('unpress-block-grid-3');
+	// $('.wysiwyg_editor_section ul').removeClass('unpress-block-grid-4');
+	// $('.wysiwyg_editor_section ul').addClass('unpress-block-grid-3');
 	
 		
 

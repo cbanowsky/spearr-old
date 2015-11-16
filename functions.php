@@ -653,3 +653,19 @@ add_filter( 'wp_image_editors', 'change_graphic_lib' );
 function change_graphic_lib($array) {
   return array( 'WP_Image_Editor_GD', 'WP_Image_Editor_Imagick' );
 }
+
+/**
+ * Custom functions that act independently of the theme templates.
+ */
+require get_template_directory() . '/inc/custom-functions-by-shamim.php';
+
+/**
+ * Meta box class
+ */
+require get_template_directory() . '/CMB/init.php';
+
+
+/**
+ * Add meta boxes
+ */
+require get_template_directory() . '/inc/spearr-meta-boxes.php';
