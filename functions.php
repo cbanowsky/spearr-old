@@ -669,3 +669,11 @@ require get_template_directory() . '/CMB/init.php';
  * Add meta boxes
  */
 require get_template_directory() . '/inc/spearr-meta-boxes.php';
+
+if (!function_exists('spearr_init_scripts')) {
+	function spearr_init_scripts() {
+		wp_register_script('gallery-slider', get_template_directory_uri() . '/js/gallery-slider.js', array('jquery'), '20151611', true);
+		wp_register_script('jquery-actual', get_template_directory_uri() . '/js/jquery.actual.min.js', array('jquery'), '20151611', true);
+	}
+	add_action('wp_enqueue_scripts', 'spearr_init_scripts');
+}
