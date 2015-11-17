@@ -13,7 +13,7 @@ if (!function_exists('register_spearr_mosaic_posts_shortcode')) {
 		extract(shortcode_atts(array(
 		    'small_post_1' => '',
 		    'small_post_2' => '',
-		    'cover_posts'  => ''
+		    'cover_posts'  => '',
 		), $atts));
 
 		$html = '';
