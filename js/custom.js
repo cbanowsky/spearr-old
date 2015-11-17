@@ -336,6 +336,36 @@ $(window).load(function(e) {
 			onTouch: true
 		}                 
 	});
+
+
+	// responsive mobile menu
+	/*Show and hide responsive menu*/
+	$('.toggle-mobile-menu').click(function(event) {
+		event.preventDefault();
+		$(this).toggleClass('active');
+		$('.responsive-menu').slideToggle(500);
+	});
+	
+	/*Add class if sub menu exists*/
+	$('.responsive-menu li').each(function() {
+		if ($(this).children('ul').length > 0) {
+			$(this).addClass('has-sub');
+			var toggle_container = $(this).children('a');
+
+			var open_close_btn;
+			open_close_btn = $('<span class="toggle"></span>');
+			open_close_btn.appendTo(toggle_container);
+		};
+	});
+
+	/*Expand sub menu*/
+	$('.responsive-menu .toggle').on('click', function(event) {
+		event.preventDefault();
+		$(this).toggleClass('expand');
+
+		$(this).parent().parent().children('ul').slideToggle(350);
+	});
+	// end responsive menu scripts	
 	
 	
 });/* End load function*/	

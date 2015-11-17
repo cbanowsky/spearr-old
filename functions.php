@@ -61,6 +61,7 @@ function unpress_setup() {
 	// This theme uses wp_nav_menu() in one locations.
 	register_nav_menus( array(
 		'main_menu' => __( 'Main Menu', 'favethemes' ), // Main site menu
+		'responsive_main_menu' => __( 'Responsive Main Menu', 'favethemes' ), // Main site menu
 		'secondary_menu' => __( 'Secondary Menu', 'favethemes' ), // Main site menu
 		'my_account_menu' => __( 'My Account Menu', 'favethemes' ) // Main site menu
 		
