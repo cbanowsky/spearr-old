@@ -60,6 +60,17 @@ function favethemes_widgets_init() {
 		'after_title' => '</h3>',
 	) );
 	
+	// Footer Newsletter Sidebar
+	register_sidebar( array(
+		'name' => 'Newsletter Sidebar',
+		'id' => 'footer-newsletter-sidebar',
+		'description'   => __( 'Put the subscribe widget here.','favethemes' ),
+		'before_widget' => '<div id="%1$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+	
 	// Footer 1
 	register_sidebar( array(
 		'name' => 'Footer 1 ( 4 Column )',

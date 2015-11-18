@@ -1,0 +1,96 @@
+/*
+Plugin Name: WP Subscribe
+Plugin URI: http://mythemeshop.com/plugins/wp-subscribe/
+Author: MyThemeShop
+Author URI: http://mythemeshop.com
+*/
+
+/*
+Modified by Shamim
+ */
+#wp-subscribe {
+	background-color: #eef2f5;
+	padding: 45px 25px;
+}
+#wp-subscribe h4.title {
+	color: #444;
+	font-family: "Eksell Display Medium";
+	font-size: 22px;
+	line-height: 1.3;
+	margin-bottom: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#wp-subscribe h4.title span {
+	display: inline-block;
+	font-weight: bold; 
+	font-size: 38px; 
+	margin-top: 15px;
+}
+#wp-subscribe p {
+	color: #333;
+	font-family: "Open-Sans",sans-serif;
+	margin: 0;
+	text-align: center;
+}
+#wp-subscribe p.text {
+	margin: 15px 0;
+	opacity: 0.8;
+}
+#wp-subscribe form {
+	text-align: center;
+}
+#wp-subscribe input {
+	border-radius: 0;
+	box-shadow: none;
+	box-sizing: border-box;
+	height: 45px;
+	padding: 10px 0;
+	text-align: center;
+}
+#wp-subscribe input.email-field {
+	background: linear-gradient(top,#f7f7f7 0,#fff 16%);
+	background: -moz-linear-gradient(top,#f7f7f7 0,#fff 16%);
+	background: -webkit-linear-gradient(top,#f7f7f7 0,#fff 16%);
+	border: 1px solid #eee;
+	color: #666;
+	display: block;
+	font-family: "Open-Sans",sans-serif;
+	margin: 0 auto;
+	max-width: 450px;
+	outline: medium none;
+	width: 100%;
+}
+#wp-subscribe input::-webkit-input-placeholder {
+   color: inherit;
+   opacity: 0.8;
+}
+#wp-subscribe input:-moz-input-placeholder {
+   color: inherit;
+   opacity: 0.8;
+}
+#wp-subscribe input::-moz-input-placeholder {
+   color: inherit;
+   opacity: 0.8;
+}
+#wp-subscribe input::-ms-input-placeholder {
+   color: inherit;
+   opacity: 0.8;
+}
+#wp-subscribe input.submit {
+	background-color: transparent;
+	border: 2px solid;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "kenzoregular",sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 15px 0 20px;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+#wp-subscribe p.footer-text {
+	margin-top: 10px;
+	font-size: 12px;
+}

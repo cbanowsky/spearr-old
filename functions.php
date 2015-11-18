@@ -57,6 +57,9 @@ function unpress_setup() {
 	add_image_size( 'iosslider', 968, 545, true );
 	// add_image_size( 'menu-size', 400, 225, true );
 	add_image_size( 'grid-style-1', 833, 540, true );
+	add_image_size('mosaic-size-large', 823, 823, true);
+	add_image_size('mosaic-size-small', 397, 397, true);
+	add_image_size('ubermenu-size', 300, 300, true);
 	
 	// This theme uses wp_nav_menu() in one locations.
 	register_nav_menus( array(
@@ -603,7 +606,13 @@ function favethemes_register_required_plugins() {
 			'force_activation' 		=> false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch
 			'force_deactivation' 	=> false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins
 			'external_url' 			=> '', // If set, overrides default API URL and points to an external URL
-		)
+		),
+
+		array(
+			'name'     				=> 'WP Subscribe', // The plugin name
+			'slug'     				=> 'wp-subscribe', // The plugin slug (typically the folder name)
+			'required' 				=> false, // If false, the plugin is only 'recommended' instead of required
+		),
 
 	);
 
@@ -675,6 +684,15 @@ if (!function_exists('spearr_init_scripts')) {
 	function spearr_init_scripts() {
 		wp_register_script('gallery-slider', get_template_directory_uri() . '/js/gallery-slider.js', array('jquery'), '20151611', true);
 		wp_register_script('jquery-actual', get_template_directory_uri() . '/js/jquery.actual.min.js', array('jquery'), '20151611', true);
+		wp_register_script('jquery-unevent', get_template_directory_uri() . '/js/jquery.unevent.js', array('jquery'), '20151611', true);
+
+		wp_dequeue_script('wp-subscribe');
+		wp_enqueue_style('wp-subscribe', get_template_directory_uri() . '/css/wp-subscribe.css');
 	}
 	add_action('wp_enqueue_scripts', 'spearr_init_scripts');
+}
+
+// load aq_resizer
+if (!class_exists('Aq_Resize')) {
+	require get_template_directory() . '/inc/aq_resizer.php';
 }

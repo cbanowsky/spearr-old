@@ -71,8 +71,8 @@ global $woocommerce;
 								}
 								?>
 								<a class="navbar-brand align-center" href="<?php echo home_url( '/' ); ?>">
-									<?php _e('SPEARR', 'hack.cd'); ?>
-			                    	<!-- <img width="100px" height="" src="<?php echo $site_logo; ?>" alt="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>" title="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>"/> -->
+									<!-- <?php _e('SPEARR', 'hack.cd'); ?> -->
+			                    	<img width="100px" height="" src="<?php echo $site_logo; ?>" alt="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>" title="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>"/>
 			                    </a>
 							</div><!-- .navbar-header -->
 							<div class="unpress-menu">
@@ -149,8 +149,8 @@ global $woocommerce;
 							}
 							?>
 							<a class="navbar-brand align-center" href="<?php echo home_url( '/' ); ?>">
-								<?php _e('SPEARR', 'hack.cd'); ?>
-		                    	<!-- <img width="100px" height="" src="<?php echo $site_logo; ?>" alt="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>" title="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>"/> -->
+								<!-- <?php _e('SPEARR', 'hack.cd'); ?> -->
+		                    	<img width="100px" height="" src="<?php echo $site_logo; ?>" alt="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>" title="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>"/>
 		                    </a>
 						</div><!-- .navbar-header -->
 						<a class="toggle-mobile-menu" href="#"><span></span></a>

@@ -14,11 +14,22 @@
 
 <?php get_template_part('shop', 'footer');?>
 
+<?php if (is_active_sidebar('footer-newsletter-sidebar')): ?>
+<div class="newsletter-signup">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <?php dynamic_sidebar('footer-newsletter-sidebar'); ?>
+            </div>
+        </div>
+    </div>
+</div>
+<?php endif ?>
+
 <!-- Footer -->
 <footer id="footer">
-    
-    <?php get_sidebar( 'footer' ); // Output the footer sidebars ?>
-    
+
+    <?php get_sidebar( 'footer' ); // Output the footer sidebars ?>    
     
     <div class="footer-2-wrapper">
         <div class="container">

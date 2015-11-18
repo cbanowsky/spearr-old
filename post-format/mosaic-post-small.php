@@ -18,11 +18,11 @@
             </div><!-- .post-content-display hidden-md hidden-sm -->
         </div>
         <a href="<?php the_permalink(); ?>">
-            <?php 
+            <?php
 			if ( has_post_thumbnail() ) {
-				the_post_thumbnail("mosaic-size");
+				the_post_thumbnail("mosaic-size-small");
 			} else { ?>
-               ><img class="alter_img" src="<?php echo get_template_directory_uri(); ?>/images/pixel.gif" alt="<?php the_title(); ?>" />
+               <img class="alter_img" src="<?php echo get_template_directory_uri(); ?>/images/pixel.gif" alt="<?php the_title(); ?>" />
             <?php } ?>
         </a>
 

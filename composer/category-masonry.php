@@ -83,10 +83,6 @@ query_posts( $args );
 		</div><!-- .col-lg-9 -->
                 
 	</div><!-- .row -->
-			<div class="home-break">
-			<h1>LET'S PUT SOMETHING HERE</h1>
-			</div>
-		</div>
 </section><!-- .container -->
 <?php
 if(get_sub_field('category_pagination')=="enable"):

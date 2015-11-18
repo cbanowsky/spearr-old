@@ -28,6 +28,20 @@ function yourprefix_register_sidebar_metabox() {
 		'options' => array( 'textarea_rows' => 10 ),
 	) );
 
+	$cmb_demo->add_field( array(
+		'name'    => __( 'Enable permalink', $locale ),
+		'desc'    => __( 'You can enable and disable permalink', $locale ),
+		'id'      => $meta_prefix . 'enable_permalink',
+		'type'    => 'checkbox'
+	) );
+
+	$cmb_demo->add_field( array(
+		'name'    => __( 'Permalink button text', $locale ),
+		'desc'    => __( 'You have to enable permalink to show this text on the permalink button', $locale ),
+		'id'      => $meta_prefix . 'permalink_button_text',
+		'type'    => 'text'
+	) );
+
 }
 
 

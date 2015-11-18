@@ -27,7 +27,7 @@ global $ft_option;
             <div id="single-gallery-posts" class="row">
             <?php if($ft_option['posts_default_sidebar_on']== 0 ): ?>
                 <?php if(! get_field( 'post_sidebar' ) || get_field( 'post_sidebar' ) == "post_sidebar_off"):?>
-                    <div class="col-md-6 pull-right">
+                    <div class="col-md-6 col-sm-12 pull-right">
                         <?php if(!empty($post_image[0])):?>
                         <div class="post-image ">
                             <a class="btn-icon btn ilightbox" href="<?php echo $post_image[0]; ?>">
@@ -182,6 +182,7 @@ global $ft_option;
         <section class="container">
             <div class="row gallery-row">
                 <?php
+                wp_enqueue_script('jquery-unevent');
                 wp_enqueue_script('jquery-actual');
                 wp_enqueue_script('gallery-slider');
 
@@ -194,13 +195,19 @@ global $ft_option;
                         echo '<div class="gallery-image-slider">';
                             echo '<ul class="slides">';
                                 foreach ($galleries as $gallery) {
+                                    $image_link = spearr_aq_resize(null, 380, 600, false, $gallery['image']);
                                     ?>
                                     <?php if ($image_loop == 0): ?>
                                     <li class="slide active">
                                     <?php else: ?>
                                     <li class="slide">
                                     <?php endif ?>
-                                        <img src="<?php echo $gallery['image']; ?>">
+                                        <div class="post-image ">
+                                            <a class="btn-icon btn gallery-slider-lighbox" href="<?php echo $gallery['image']; ?>">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </a>
+                                            <img src="<?php echo $image_link; ?>" alt="<?php the_title();?>">
+                                        </div>
                                     </li>
                                     <?php
                                     $image_loop++;

@@ -24,7 +24,7 @@ global $ft_option;
             <div class="row">
             <?php if($ft_option['posts_default_sidebar_on']== 0 ): ?>
                 <?php if(! get_field( 'post_sidebar' ) || get_field( 'post_sidebar' ) == "post_sidebar_off"):?>
-                    <div class="col-md-6 pull-right">
+                    <div class="col-md-6 col-sm-12 pull-right">
                         <?php if(!empty($post_image[0])):?>
                         <div class="post-image ">
                             <a class="btn-icon btn ilightbox" href="<?php echo $post_image[0]; ?>">

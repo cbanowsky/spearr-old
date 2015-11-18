@@ -61,9 +61,7 @@ endif;
 ?>
 
 <section class="<?php echo $class_section; ?>">
-<div class="more">
-<h2>VIEW MORE</h2>
-</div>
+	<?php echo do_shortcode('[spearr_heading markup="h2" heading="VIEW MORE" margin_top="20" margin_bottom="30"]'); ?>
 	<div class="row">
 		<div class="<?php echo $class_col2; ?>">
 			<div class="row post-row">
