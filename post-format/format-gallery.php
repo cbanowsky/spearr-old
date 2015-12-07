@@ -115,10 +115,10 @@ global $ft_option;
                         <?php if ($galleries): ?>
                         <a href="#gallery-slideshow" class="launch-gallery-modal btn btn-primary">
                             <span class="opened">
-                                <?php _e('Launch Slideshow', 'hack.cd'); ?>
+                                <?php _e('VIEW SLIDESHOW', 'hack.cd'); ?>
                             </span>
                             <span class="closed">
-                                <?php _e('Close Slideshow', 'hack.cd'); ?>
+                                <?php _e('CLOSE SLIDESHOW', 'hack.cd'); ?>
                             </span>
                         </a>
                         <?php endif ?>
