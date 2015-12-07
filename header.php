@@ -21,6 +21,25 @@ global $ft_option; // Fetch options stored in $nt_option;
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<style>
+	.spearr-featured-posts-shortcode .featured-image {
+	padding: 0;
+	text-align: center;
+	height: 250px;
+	}
+	.category-box  {
+		border: none;
+	}
+	.category-box:after {
+	content: ' '; 
+	position: absolute; 
+	width: 60px; 
+	height: 3px; 
+	background-color: #000; 
+	bottom: -5px; 
+	margin-left: -30px; 
+	left: 50%;
+	</style>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
@@ -43,6 +62,7 @@ global $ft_option; // Fetch options stored in $nt_option;
 	}
 	?>
 	<link rel="apple-touch-icon-precomposed" href="<?php echo $retina_favicon; ?>" />
+
 	<?php wp_head(); ?>
 </head>
 <?php 

@@ -26,7 +26,7 @@
 <section class="container module masonry">
 	<div class="row">
 		<div class="col-lg-3 col-md-3 col-sm-4 sticky-col">
-			<div class="category-box sticky-box static_col">
+			<div class="category-box sticky-box static_col" style="border: none;">
 				<h2>
                 	<?php if (is_category()) { ?>
 					<?php single_cat_title(); ?>

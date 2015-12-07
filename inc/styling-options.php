@@ -145,6 +145,7 @@ if($ft_option['google_blackbox'] != '0') {
 
 .category-box{
 	background:<?php echo $ft_option['category_box']; ?>;
+	border: none;
 }
 .category-box h2{
 	color:<?php echo $ft_option['category_box_color']; ?>
