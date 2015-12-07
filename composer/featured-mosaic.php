@@ -54,7 +54,7 @@ query_posts( $args );
 			</div>
 		</div>  -->
         
-        <div class="col-lg-12 col-md-12 col-sm-8">
+        <div class="col-lg-12 col-md-12 col-sm-12">
 			<div class="row post-row" style="text-align: center;">
 				
 				<?php 
