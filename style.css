@@ -1599,6 +1599,13 @@ Post
 	left: 0;
 	border: none;
 }
+
+.btn-icon .btn .gallery-slider-lighbox {
+	position: absolute;
+	top: 0;
+	left: 1;
+	border: none;	
+}
 .post-image .btn-icon i {
 	position: relative;
 	top: 2px;
