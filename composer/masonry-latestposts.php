@@ -54,7 +54,7 @@ query_posts( $args );
 			
 			echo '<div class="col-lg-12 col-md-6 col-sm-4">';
 		else:
-			echo '<div class="col-lg-12 col-md-9 col-sm-8">';
+			echo '<div class="col-lg-12 col-md-6 col-sm-8">';
 		endif;
 		?>
 			<div class="row post-row">

@@ -81,7 +81,7 @@ query_posts( $args );
 		</div>
          -->
         
-		<div class="col-lg-9 col-md-9 col-sm-8">
+		<div class="col-lg-9 col-md-8 col-sm-8">
 			<div class="row post-row">
 				
 				<?php 
@@ -93,7 +93,7 @@ query_posts( $args );
 							if($i==2 || $i==4):
 								echo '<div class="post-holder col-lg-8 col-md-8 col-sm-12 col-xs-12">';
 							else:
-                            	echo '<div class="post-holder col-lg-4 col-md-4 col-sm-12 col-xs-12">';
+                            	echo '<div class="post-holder col-lg-4 col-md-12 col-sm-12 col-xs-12">';
 							endif;
 							?>
                                 <?php get_template_part( 'post-format/mosaic', get_post_format() ); ?>
