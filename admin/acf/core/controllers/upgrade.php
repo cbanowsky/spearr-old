@@ -68,13 +68,13 @@ class acf_upgrade
 
 			}
 		}
-		
-		
+
+
 		// update admin page
 		add_submenu_page('edit.php?post_type=acf', __('Upgrade','acf'), __('Upgrade','acf'), 'manage_options','acf-upgrade', array($this,'html') );
 	}
 
-	
+
 
 	/*
 	*  html
@@ -513,7 +513,7 @@ class acf_upgrade
 				update_option('acf_version','3.0.0');
 
 			    $return = array(
-			    	'status'	=>	true,
+			    'status'	=>	true,
 					'message'	=>	$message,
 					'next'		=>	'3.1.8',
 			    );
