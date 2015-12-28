@@ -233,7 +233,7 @@ global $ft_option;
                             <li id="desc-<?php echo $image_desc_loop; ?>">
                             <?php endif ?>
                                 <p><?php echo $gallery['description']; ?></p>
-                                <p class="image-credit"><?php echo $gallery['image_credit']; ?></p>
+                                <em><p class="image-credit"><?php echo $gallery['image_credit']; ?></p></em>
                             </li>
                             <?php
                             $image_desc_loop++;

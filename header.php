@@ -16,6 +16,7 @@ global $ft_option; // Fetch options stored in $nt_option;
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
+	<meta name="google-site-verification" content="gnVcXV7ux8F57lxlp-uNELTF4q7w8zxxG_jNaextCXI" />
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
@@ -62,9 +63,30 @@ global $ft_option; // Fetch options stored in $nt_option;
 	}
 	?>
 	<link rel="apple-touch-icon-precomposed" href="<?php echo $retina_favicon; ?>" />
+	<link href="https://plus.google.com/101737758964289492911" rel="publisher" />
 
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '985686538140502');
+fbq('track', "PageView");
+fbq('track', "ViewContent");
+fbq('track', "Search");
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=985686538140502&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 	<?php wp_head(); ?>
 </head>
+<script type="text/javascript" async defer
+  src="https://apis.google.com/js/platform.js?publisherid=101737758964289492911">
+</script>
 <?php 
 if($ft_option["unpress_main_skin"]=="black_skin"):
 	$body_class = "unpress_black_skin";

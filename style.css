@@ -3211,7 +3211,7 @@ Flexislider
 }
 .flex-direction-nav a:before {
 	font-family: "flexslider-icon";
-	font-size: 34px;
+	font-size: 25px;
 	display: inline-block;
 	content: '\f001';
 	top: 6px;
@@ -3220,8 +3220,8 @@ Flexislider
 }
 .flex-direction-nav a {
 	border: 2px solid #584D4D;
-	padding: 30px;
-	margin: -35px 0 0;
+	padding: 25px;
+	margin: -10px 0 0;
 }
 .flex-direction-nav a:before {
 	left: -12px;
@@ -3851,8 +3851,8 @@ p{font-size:14px !important;margin:0
 	display: inline-block;
 }
 .slide-button {
-	padding: 10px 25px;
-	font-size: 48px;
+	padding: 10px 20px;
+	font-size: 20px;
 	border: 2px solid;
 	position: absolute;
 	top: 50%;
@@ -3902,7 +3902,7 @@ p{font-size:14px !important;margin:0
 	right: 0;
 	margin-right: 15px;
 	padding: 16px 20px;
-	font-size: 35px;
+	font-size: 15px;
 	color: #fff;
 	border: 2px solid;
 	-webkit-transition: all .2s ease-in-out 0;
@@ -3968,7 +3968,7 @@ p{font-size:14px !important;margin:0
 	float: right;
 }
 .unpress-menu .ubermenu.ubermenu-skin-none .ubermenu-item.ubermenu-item-level-0>.ubermenu-target {
-	padding: 20px 83px 25px;
+	padding: 20px 40px 25px;
 	line-height: 1em;
 }
 .unpress-menu .ubermenu.ubermenu-skin-none .ubermenu-item.ubermenu-item-level-0>.ubermenu-submenu-align-full_width {

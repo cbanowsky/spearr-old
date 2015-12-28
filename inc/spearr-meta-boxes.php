@@ -72,7 +72,7 @@ function yourprefix_register_repeatable_group_field_metabox() {
 			'group_title'   => __( 'Entry {#}', $locale ), // {#} gets replaced by row number
 			'add_button'    => __( 'Add Another Entry', $locale ),
 			'remove_button' => __( 'Remove Entry', $locale ),
-			'sortable'      => true, // beta
+			'sortable'      => false, // beta
 			// 'closed'     => true, // true to have the groups closed by default
 		),
 	) );
@@ -87,7 +87,9 @@ function yourprefix_register_repeatable_group_field_metabox() {
 		'name'        => __( 'Entry Description', $locale ),
 		'description' => __( 'Write a short description for this entry', $locale ),
 		'id'          => 'description',
-		'type'        => 'textarea_small',
+		'type'        => 'wysiwyg',
+		'repeatable'  => true,
+
 	) );
 
 	$cmb_group->add_group_field( $group_field_id, array(
