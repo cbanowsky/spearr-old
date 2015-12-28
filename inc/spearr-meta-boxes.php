@@ -67,13 +67,13 @@ function yourprefix_register_repeatable_group_field_metabox() {
 	$group_field_id = $cmb_group->add_field( array(
 		'id'          => $meta_prefix . 'galleries',
 		'type'        => 'group',
-		'description' => __( 'Add unlimited gallery images for this post', $locale ),
+		'description' => __( 'Add unlimited gallery images for this post. Add imagaes first then save draft.  After saving you will see the box to enter description and credits.', $locale ),
 		'options'     => array(
 			'group_title'   => __( 'Entry {#}', $locale ), // {#} gets replaced by row number
 			'add_button'    => __( 'Add Another Entry', $locale ),
 			'remove_button' => __( 'Remove Entry', $locale ),
-			'sortable'      => false, // beta
-			// 'closed'     => true, // true to have the groups closed by default
+			'sortable'      => true, // beta
+			'closed'     => true, // true to have the groups closed by default
 		),
 	) );
 
@@ -88,7 +88,8 @@ function yourprefix_register_repeatable_group_field_metabox() {
 		'description' => __( 'Write a short description for this entry', $locale ),
 		'id'          => 'description',
 		'type'        => 'wysiwyg',
-		'repeatable'  => true,
+		'options' => array( 'textarea_rows' => 5 ),
+
 
 	) );
 
