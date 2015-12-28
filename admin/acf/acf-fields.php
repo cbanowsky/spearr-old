@@ -362,37 +362,37 @@ if(function_exists("register_field_group"))
 		),
 		'menu_order' => 0,
 	));
-	register_field_group(array (
-		'id' => 'acf_format-gallery',
-		'title' => 'Format Gallery',
-		'fields' => array (
-			array (
-				'key' => 'field_532b42dcbe55a',
-				'label' => 'Upload gallery image',
-				'name' => 'post_upload_gallery',
-				'type' => 'gallery',
-				'preview_size' => 'thumbnail',
-			),
-		),
-		'location' => array (
-			array (
-				array (
-					'param' => 'post_format',
-					'operator' => '==',
-					'value' => 'gallery',
-					'order_no' => 0,
-					'group_no' => 0,
-				),
-			),
-		),
-		'options' => array (
-			'position' => 'normal',
-			'layout' => 'no_box',
-			'hide_on_screen' => array (
-			),
-		),
-		'menu_order' => 0,
-	));
+	// register_field_group(array (
+	// 	'id' => 'acf_format-gallery',
+	// 	'title' => 'Format Gallery',
+	// 	'fields' => array (
+	// 		array (
+	// 			'key' => 'field_532b42dcbe55a',
+	// 			'label' => 'Upload gallery image',
+	// 			'name' => 'post_upload_gallery',
+	// 			'type' => 'gallery',
+	// 			'preview_size' => 'thumbnail',
+	// 		),
+	// 	),
+	// 	'location' => array (
+	// 		array (
+	// 			array (
+	// 				'param' => 'post_format',
+	// 				'operator' => '==',
+	// 				'value' => 'gallery',
+	// 				'order_no' => 0,
+	// 				'group_no' => 0,
+	// 			),
+	// 		),
+	// 	),
+	// 	'options' => array (
+	// 		'position' => 'normal',
+	// 		'layout' => 'no_box',
+	// 		'hide_on_screen' => array (
+	// 		),
+	// 	),
+	// 	'menu_order' => 0,
+	// ));
 	register_field_group(array (
 		'id' => 'acf_format-video',
 		'title' => 'Format Video',
@@ -825,7 +825,7 @@ if(function_exists("register_field_group"))
 							),
 						),
 					),
-					
+
 					array (
 						'label' => 'Custom Slider',
 						'name' => 'custom_slider',
@@ -1674,11 +1674,11 @@ if(function_exists("register_field_group"))
 						),
 					),
 					/******************************************************************************************************************************
-					
+
 								Shop Sections
-					
+
 					********************************************************************************************************************************/
-					
+
 					array (
 						'label' => 'WooCommerce Best Seller Products',
 						'name' => 'best_seller_products',
@@ -1860,9 +1860,9 @@ if(function_exists("register_field_group"))
 							),
 						),
 					),
-				
-					
-					
+
+
+
 				),
 				'button_label' => 'Add Sections',
 			),
@@ -2002,4 +2002,4 @@ function ft_register_fields(){
 	include_once('add-ons/acf-repeater/repeater.php');
 	include_once('add-ons/acf-flexible-content/flexible-content.php');
 }
-add_action('acf/register_fields', 'ft_register_fields'); 
+add_action('acf/register_fields', 'ft_register_fields');

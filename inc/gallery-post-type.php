@@ -123,17 +123,17 @@ function unpress_gallerytags() {
 // start Gallery columns
 
 // Change the columns for the edit CPT screen
-// function unpress_gallery_change_columns( $cols ) {
-// 	$cols = array(
-// 			"cb" => '<input type="checkbox" />',
-// 			"title" => __( "Gallery Title", "favethemes" ),
-// 			"gallery_category" => __( "Category", "favethemes" ),
-// 			"gallery_image" => __( "Picture", "favethemes" ),
-// 			"date" => __( "Last Updated", "favethemes" ),
-// 		);
-// 	return $cols;
-// }
-// add_filter( "manage_gallery_posts_columns", "unpress_gallery_change_columns" );
+function unpress_gallery_change_columns( $cols ) {
+	$cols = array(
+			"cb" => '<input type="checkbox" />',
+			"title" => __( "Gallery Title", "favethemes" ),
+			"gallery_category" => __( "Category", "favethemes" ),
+			"gallery_image" => __( "Picture", "favethemes" ),
+			"date" => __( "Last Updated", "favethemes" ),
+		);
+	return $cols;
+}
+add_filter( "manage_gallery_posts_columns", "unpress_gallery_change_columns" );
 
 function unpress_gallery_custom_columns( $column, $post_id ) {
 	global $ft_option;
