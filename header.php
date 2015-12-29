@@ -21,7 +21,6 @@ global $ft_option; // Fetch options stored in $nt_option;
 	<meta name="viewport" content="width=device-width">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<meta name="title" content="SPEARR">
-  <meta name="description" content="SPEARR is the destination for a truly unique look at all topics related to art, fashion and culture.  Up to the minute looks at what actually matters.">
   <meta name="keywords" content="fashion, culture, art, style, news, celebrities, runway shows, models, collections, designers, alternative">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -29,7 +28,7 @@ global $ft_option; // Fetch options stored in $nt_option;
   <meta name="revisit-after" content="1 days">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<?php echo function_exists('dpc_metadescription') ? dpc_metadescription() : ''; ?>
+	<meta name="description" content="<?php echo function_exists('dpc_metadescription') ? dpc_metadescription() : ''; ?>" />
 	<style>
 	.spearr-featured-posts-shortcode .featured-image {
 	padding: 0;
