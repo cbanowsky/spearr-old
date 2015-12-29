@@ -20,6 +20,13 @@ global $ft_option; // Fetch options stored in $nt_option;
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
+	<meta name="title" content="SPEARR">
+  <meta name="description" content="SPEARR is the destination for a truly unique look at all topics related to art, fashion and culture.  Up to the minute looks at what actually matters.">
+  <meta name="keywords" content="fashion, culture, art, style, news, celebrities, runway shows, models, collections, designers, alternative">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="1 days">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<style>
@@ -32,33 +39,33 @@ global $ft_option; // Fetch options stored in $nt_option;
 		border: none;
 	}
 	.category-box:after {
-	content: ' '; 
-	position: absolute; 
-	width: 60px; 
-	height: 3px; 
-	background-color: #000; 
-	bottom: -5px; 
-	margin-left: -30px; 
+	content: ' ';
+	position: absolute;
+	width: 60px;
+	height: 3px;
+	background-color: #000;
+	bottom: -5px;
+	margin-left: -30px;
 	left: 50%;
 	</style>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
-    <?php 
+    <?php
 	// Get the favicon
-	if ( $ft_option['site_favicon'] != '' ) { 
+	if ( $ft_option['site_favicon'] != '' ) {
 		$site_favicon = $ft_option['site_favicon'];
-	} else { 
+	} else {
 		$site_favicon = get_template_directory_uri() . '/images/favicon.ico';
 	}
 	?>
 	<link rel="shortcut icon" href="<?php echo $site_favicon; ?>" />
-	<?php 
+	<?php
 	// Get the retina favicon
-	if ( $ft_option['site_retina_favicon'] != '' ) { 
+	if ( $ft_option['site_retina_favicon'] != '' ) {
 		$retina_favicon = $ft_option['site_retina_favicon'];
-	} else { 
+	} else {
 		$retina_favicon = get_template_directory_uri() . '/images/retina-favicon.png';
 	}
 	?>
@@ -87,7 +94,7 @@ src="https://www.facebook.com/tr?id=985686538140502&ev=PageView&noscript=1"
 <script type="text/javascript" async defer
   src="https://apis.google.com/js/platform.js?publisherid=101737758964289492911">
 </script>
-<?php 
+<?php
 if($ft_option["unpress_main_skin"]=="black_skin"):
 	$body_class = "unpress_black_skin";
 else:
