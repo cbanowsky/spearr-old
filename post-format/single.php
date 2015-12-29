@@ -1,3 +1,4 @@
+<?php echo function_exists('dpc_metadescription') ? dpc_metadescription() : ''; ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
     <?php if ( has_post_thumbnail() ): ?>
     <div class="featured-image">
@@ -17,7 +18,7 @@
             <?php else : ?>
             <?php
                 the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'favethemes' ) );
-                
+
                 $args = array(
                     'before' => '<div class="link-pages">' . __( 'Pages:', 'favethemes' ),
                     'after' => '</div>',
