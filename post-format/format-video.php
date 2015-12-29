@@ -14,7 +14,6 @@ if ( have_posts() ) :
   // Set post view
   fave_setPostViews(get_the_ID());
 ?>
-<?php echo function_exists('dpc_metadescription') ? dpc_metadescription() : ''; ?>
 <section class="container video video-title">
 	<div class="row">
 		<div class="col-md-12">

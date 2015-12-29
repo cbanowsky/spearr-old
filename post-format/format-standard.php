@@ -9,7 +9,6 @@
 **/
 global $ft_option;
 ?>
-<?php echo function_exists('dpc_metadescription') ? dpc_metadescription() : ''; ?>
 <section class="container">
     <div class="row">
     <?php

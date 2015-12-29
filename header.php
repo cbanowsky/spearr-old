@@ -29,6 +29,7 @@ global $ft_option; // Fetch options stored in $nt_option;
   <meta name="revisit-after" content="1 days">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<?php echo function_exists('dpc_metadescription') ? dpc_metadescription() : ''; ?>
 	<style>
 	.spearr-featured-posts-shortcode .featured-image {
 	padding: 0;

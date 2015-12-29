@@ -1,4 +1,3 @@
-<?php echo function_exists('dpc_metadescription') ? dpc_metadescription() : ''; ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
     <?php if ( has_post_thumbnail() ): ?>
     <div class="featured-image">
