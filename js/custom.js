@@ -11,32 +11,35 @@ var unpress_window_width = $(window).width();
 
 if( !dtGlobals.isMobile ){
 	$(window).load(function(){
-	  if (jQuery('div').hasClass('unpress-sticky')) {	
+	  if (jQuery('div').hasClass('unpress-sticky')) {
 		$(".unpress-sticky").sticky({ topSpacing: 0 });
 	  }
 	});
 }
 
 /***************** WooCommerce Cart *****************/
-	
+
 	$('.woocommerce-tabs .nav-tabs').find("li:first").addClass('active');
 	$('.tab-content').find(".tab-pane:first").addClass('active');
-	
+
 	// $('.wysiwyg_editor_section ul').removeClass('unpress-block-grid-4');
 	// $('.wysiwyg_editor_section ul').addClass('unpress-block-grid-3');
-	
-		
+
+
 //////////////////////////////////////////////
 // Tooltip
 //////////////////////////////////////////////
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip('show')
+  $('[data-toggle="tooltip"]').tooltip()
+	$('#show-inline').tooltip('toggle')
+
 })
+
 //////////////////////////////////////////////
 // Organize Menu
 //////////////////////////////////////////////
 
-$('#main-nav .sub-links').not($('.dropdown-menu .sub-links')).wrap('<div class="dropdown-menu"><div class="yamm-content 1111"><div class="row full-width" />');/* Fix for Custom Link only */ 
+$('#main-nav .sub-links').not($('.dropdown-menu .sub-links')).wrap('<div class="dropdown-menu"><div class="yamm-content 1111"><div class="row full-width" />');/* Fix for Custom Link only */
 
 $('#main-nav .dropdown-menu .yamm-content .row').each(function (index, element) {
 
@@ -73,7 +76,7 @@ var sidebar = $('#pageslide');
 $('.unpress-main-menu').children().clone().removeClass('dropdown').removeAttr('id').removeAttr('class').appendTo($(sidebar));
 $('.unpress-secondary-menu, .sidebar-mobile').children().clone().removeAttr('id').removeAttr('class').appendTo($(sidebar));
 $(sidebar).children().nextUntil().wrap('<div class="block" />');
-	
+
 //////////////////////////////////////////////
 // Masonry
 //////////////////////////////////////////////
@@ -105,7 +108,7 @@ function colUpdateSize(){
 	$('.sticky-box').css( "height", [width] );
 };
 $(document).ready(colUpdateSize);    // When the page first loads
-$(window).resize(colUpdateSize);     // When the browser changes size  
+$(window).resize(colUpdateSize);     // When the browser changes size
 
 
 //////////////////////////////////////////////
@@ -122,7 +125,7 @@ $(function() {
 //////////////////////////////////////////////
 //iLightbox
 //////////////////////////////////////////////
-$('.ilightbox').iLightBox({ 
+$('.ilightbox').iLightBox({
 	skin: 'light',
 	path: 'horizontal',
 	fullViewPort: 'fill',
@@ -164,7 +167,7 @@ if(dtGlobals.isMobile || dtGlobals.isiPad){
 	$('.csstransitions .post-holder').css('opacity','1');
 }
 else{
-	
+
 	$('.post-holder').on('inview', function(event, isInView) {
 		if (isInView) {
 			$(this).addClass('inview');
@@ -189,7 +192,7 @@ if ( $().fitVids ){
 	$('.entry-content').fitVids();
 }
 //////////////////////////////////////////////
-//  Gallery 
+//  Gallery
 //////////////////////////////////////////////
 if ( $().imgLiquid ){
 	$('.custom-gallery').find('.gallery-item').imgLiquid({
@@ -201,7 +204,7 @@ if ( $().imgLiquid ){
 // Using custom configuration
 
 $(window).load(function(e) {
-    
+
 	$('#unPress-Carousel-Related-Gallery').carouFredSel({
 		auto				: false,
 		items               : 3,
@@ -211,16 +214,16 @@ $(window).load(function(e) {
 		scroll : {
 			items           : 1,
 			easing          : "easeOutExpo",
-			duration        : 500,                         
+			duration        : 500,
 			pauseOnHover    : true
 		},
 		mousewheel: false,
 		swipe: {
 			onMouse: true,
 			onTouch: true
-		}                   
+		}
 	});
-	
+
 	$('#unPress-Carousel-Related-Video').carouFredSel({
 		auto				: false,
 		items               : 4,
@@ -230,21 +233,21 @@ $(window).load(function(e) {
 		scroll : {
 			items           : 1,
 			easing          : "quadratic",
-			duration        : 500,                         
+			duration        : 500,
 			pauseOnHover    : true
 		},
 		mousewheel: false,
 		swipe: {
 			onMouse: true,
 			onTouch: true
-		}                  
+		}
 	});
-	
+
 	/*================================================================
 	=
-	=		Gallery 
+	=		Gallery
 	=================================================================*/
-	
+
 	if(dtGlobals.isMobile){
 		$('#unPress-Single-Gallery-Carousel').carouFredSel({
 			auto				: false,
@@ -255,14 +258,14 @@ $(window).load(function(e) {
 			scroll : {
 				items           : 1,
 				easing          : "quadratic",
-				duration        : 500,                         
+				duration        : 500,
 				pauseOnHover    : true
 			},
 			mousewheel: false,
 			swipe: {
 				onMouse: true,
 				onTouch: true
-			}                 
+			}
 		});
 	}
 	else if( dtGlobals.isiPad ){
@@ -275,14 +278,14 @@ $(window).load(function(e) {
 			scroll : {
 				items           : 1,
 				easing          : "quadratic",
-				duration        : 500,                         
+				duration        : 500,
 				pauseOnHover    : true
 			},
 			mousewheel: false,
 			swipe: {
 				onMouse: true,
 				onTouch: true
-			}                 
+			}
 		});
 	}else{
 		$('#unPress-Single-Gallery-Carousel').carouFredSel({
@@ -294,7 +297,7 @@ $(window).load(function(e) {
 			scroll : {
 				items           : 1,
 				easing          : "quadratic",
-				duration        : 250,                         
+				duration        : 250,
 				pauseOnHover    : true
 			},
 			mousewheel: false,
@@ -303,7 +306,7 @@ $(window).load(function(e) {
 			swipe: {
 				onMouse: true,
 				onTouch: true
-			}                 
+			}
 		});
 	}
 	$('#unPress-Homepage-Gallery-Carousel').carouFredSel({
@@ -313,17 +316,17 @@ $(window).load(function(e) {
 		scroll : {
 			items           : 1,
 			easing          : "quadratic",
-			duration        : 250,                         
+			duration        : 250,
 			pauseOnHover    : true
 		},
 		mousewheel: false,
 		swipe: {
 			onMouse: true,
 			onTouch: true
-		}                 
+		}
 	});
 
-	
+
 	$('#unPress-Homepage-Interviews-Carousel').carouFredSel({
 		direction           : "left",
 		items               : 5,
@@ -332,14 +335,14 @@ $(window).load(function(e) {
 		scroll : {
 			items           : 1,
 			easing          : "quadratic",
-			duration        : 500,                         
+			duration        : 500,
 			pauseOnHover    : true
 		},
 		mousewheel: false,
 		swipe: {
 			onMouse: true,
 			onTouch: true
-		}                 
+		}
 	});
 
 
@@ -350,7 +353,7 @@ $(window).load(function(e) {
 		$(this).toggleClass('active');
 		$('.responsive-menu').slideToggle(500);
 	});
-	
+
 	/*Add class if sub menu exists*/
 	$('.responsive-menu li').each(function() {
 		if ($(this).children('ul').length > 0) {
@@ -370,10 +373,10 @@ $(window).load(function(e) {
 
 		$(this).parent().parent().children('ul').slideToggle(350);
 	});
-	// end responsive menu scripts	
-	
-	
-});/* End load function*/	
+	// end responsive menu scripts
+
+
+});/* End load function*/
 
 
 });/* End jQuery*/
@@ -415,7 +418,7 @@ jQuery(window).load(function() {
 		animationLoop: true, //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
 		pauseOnHover: true,
 		slideshowSpeed: 6000, //Integer: Set the speed of the slideshow cycling, in milliseconds
-		animationSpeed: 500, //Integer: Set the speed of animations, in milliseconds 
+		animationSpeed: 500, //Integer: Set the speed of animations, in milliseconds
 	});
 });
 
