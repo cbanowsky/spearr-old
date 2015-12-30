@@ -38,7 +38,7 @@ function unpress_setup() {
 
 	// Add RSS feed links to <head> for posts and comments.
 	add_theme_support( 'automatic-feed-links' );
-	
+
 	// This theme styles the visual editor to resemble the theme style.
 	add_editor_style( array( 'css/editor-style.css', unpress_font_url() ) );
 
@@ -61,14 +61,14 @@ function unpress_setup() {
 	add_image_size('mosaic-size-large', 823, 823, true);
 	add_image_size('mosaic-size-small', 397, 397, true);
 	add_image_size('ubermenu-size', 300, 300, true);
-	
+
 	// This theme uses wp_nav_menu() in one locations.
 	register_nav_menus( array(
 		'main_menu' => __( 'Main Menu', 'favethemes' ), // Main site menu
 		'responsive_main_menu' => __( 'Responsive Main Menu', 'favethemes' ), // Main site menu
 		'secondary_menu' => __( 'Secondary Menu', 'favethemes' ), // Main site menu
 		'my_account_menu' => __( 'My Account Menu', 'favethemes' ) // Main site menu
-		
+
 	) );
 
 	/*
@@ -86,11 +86,11 @@ function unpress_setup() {
 	add_theme_support( 'post-formats', array(
 		'video','gallery','audio', 'slideshow' ,
 	) );
-	
+
 	// This theme uses its own gallery styles.
 	add_filter( 'use_default_gallery_style', '__return_false' );
 
-	
+
 }
 endif; // unpress_setup
 add_action( 'after_setup_theme', 'unpress_setup' );
@@ -263,85 +263,85 @@ function unpress_post_tags(){
 	$posttags = get_the_tags();
 	if ($posttags) {
 	  foreach($posttags as $tag) {
-		echo '<a href="'.get_tag_link($tag->term_id).'">&#35;'.$tag->name.'</a>' . ' '; 
+		echo '<a href="'.get_tag_link($tag->term_id).'">&#35;'.$tag->name.'</a>' . ' ';
 	  }
 	}
 }
 
 function unpress_taxonomy_strip($term){
-	$terms = get_the_term_list( get_the_ID(), $term, '', ', ', '' ); 
+	$terms = get_the_term_list( get_the_ID(), $term, '', ', ', '' );
 	echo strip_tags( $terms );
 }
 
 function unpress_custom_post_gallery_tags(){
-	
+
 	$gallery_tags = wp_get_post_terms(get_the_ID(), 'gallery-tags', array("fields" => "all"));
-	
+
 	if(!empty($gallery_tags)):
 	echo '<div class="tags-wrap">';
 	echo '<h3>Tags</h3>';
-	foreach($gallery_tags as $tag): 
+	foreach($gallery_tags as $tag):
             $term_link = get_term_link( $tag, 'gallery-tags' );
             if( is_wp_error( $term_link ) )
                 continue;
-           
-            echo '<a href="'.$term_link.'">&#35;'.$tag->name.'</a>' . ' '; 
-              
+
+            echo '<a href="'.$term_link.'">&#35;'.$tag->name.'</a>' . ' ';
+
     endforeach;
 	echo '</div>';
 	endif;
 }
 
 function unpress_custom_post_video_tags(){
-	
+
 	$video_tags = wp_get_post_terms(get_the_ID(), 'video-tags', array("fields" => "all"));
-	
+
 	if(!empty($video_tags)):
 	echo '<div class="tags-wrap">';
 	echo '<h3>Tags</h3>';
-	foreach($video_tags as $tag): 
+	foreach($video_tags as $tag):
             $term_link = get_term_link( $tag, 'video-tags' );
             if( is_wp_error( $term_link ) )
                 continue;
-           
-            echo '<a href="'.$term_link.'">&#35;'.$tag->name.'</a>' . ' '; 
-              
+
+            echo '<a href="'.$term_link.'">&#35;'.$tag->name.'</a>' . ' ';
+
     endforeach;
 	echo '</div>';
 	endif;
 }
 
 function unpress_custom_post_interview_tags(){
-	
+
 	$interview_tags = wp_get_post_terms(get_the_ID(), 'interview-tags', array("fields" => "all"));
-	
+
 	if(!empty($interview_tags)):
 	echo '<div class="tags-wrap">';
 	echo '<h3>Tags</h3>';
-	foreach($interview_tags as $tag): 
+	foreach($interview_tags as $tag):
             $term_link = get_term_link( $tag, 'interview-tags' );
             if( is_wp_error( $term_link ) )
                 continue;
-           
-            echo '<a href="'.$term_link.'">&#35;'.$tag->name.'</a>' . ' '; 
-              
+
+            echo '<a href="'.$term_link.'">&#35;'.$tag->name.'</a>' . ' ';
+
     endforeach;
 	echo '</div>';
 	endif;
 }
 
 function unpress_custom_post_gallery_cats(){
-	
+
 	$gallery_cats = wp_get_post_terms(get_the_ID(), 'gallery-categories', array("fields" => "all"));
-	
+
 	if(!empty($gallery_cats)):
-	foreach($gallery_cats as $cat): 
+	foreach($gallery_cats as $cat):
             $term_link = get_term_link( $cat, 'gallery-categories' );
             if( is_wp_error( $term_link ) )
                 continue;
-           
-            echo '<li><a href="'.$term_link.'">'.$cat->name.'</a></li>' . ' '; 
-              
+
+            echo '<li><a href="'.$term_link.'">'.$cat->name.'</a></li>' . ' ';
+
     endforeach;
 	endif;
 }
@@ -400,7 +400,7 @@ function unpress_footer_sidebar_class() {
 
 function unpress_author(){
 	global $ft_option;
-	
+
 	if($ft_option["site_author_name"]=="1"):
     ?>
     	<p class="post-author">
@@ -409,14 +409,14 @@ function unpress_author(){
 				<?php the_author();?>
             </a>
         </p>
-    <?php 
+    <?php
 	endif;
 }
 
 function unpress_author_box(){
 global $ft_option;
 
-if($ft_option["single_author"]=="1"):	
+if($ft_option["single_author"]=="1"):
 ?>
 <div class="post-author-wrap ">
     <div class="media">
@@ -431,18 +431,18 @@ if($ft_option["single_author"]=="1"):
                 <p><?php the_author_meta( 'description' ); ?></p>
             <?php endif; ?>
         </div>
-    </div>				
+    </div>
 </div><!-- .post-author-wrap -->
 <?php
-endif; 
+endif;
 }
 
 function unpress_share_button(){
 	global $ft_option;
-	
+
 	if($ft_option["single_social"]=="1"): ?>
-    <div class="post-sharing-wrap pull-right">
-        <a class="btn-icon btn btn-post-share" id="show-inline" data-toggle="tooltip" title="SHARE" href="#">
+    <div class="post-sharing-wrap pull-right" data-toggle="tooltip" title="SHARE">
+        <a class="btn-icon btn btn-post-share" id="show-inline" href="#">
             <i class="fa fa-plus"></i>
         </a>
     </div>
@@ -466,7 +466,7 @@ function unpress_first_post_image() {
 	Menu Icons
 */
 function unpress_add_menu_icons_styles(){?>
- 
+
 <style type="text/css">
 #adminmenu .menu-icon-video div.wp-menu-image:before {
 content: "\f126";
@@ -478,7 +478,7 @@ content: "\f126";
 	content: "\f464";
 }
 </style>
- 
+
 <?php
 }
 add_action( 'admin_head', 'unpress_add_menu_icons_styles' );
@@ -491,7 +491,7 @@ if ( ! function_exists( 'unpress_author_info' ) ) :
  * @since unPress 1.1
  */
 function unpress_author_info( $contactmethods ) {
-	
+
 	$contactmethods['unpress_author_facebook']		= __( 'Facebook', 'favethemes' );
 	$contactmethods['unpress_author_linkedin']		= __( 'LinkedIn', 'favethemes' );
 	$contactmethods['unpress_author_twitter']		= __( 'Twitter', 'favethemes' );
@@ -504,7 +504,7 @@ function unpress_author_info( $contactmethods ) {
 	$contactmethods['unpress_author_vimeo']			= __( 'Vimeo', 'favethemes' );
 	$contactmethods['unpress_author_tumblr']		= __( 'Tumblr', 'favethemes' );
 	$contactmethods['unpress_author_dribbble']		= __( 'Dribbble', 'favethemes' );
-		
+
 	return $contactmethods;
 }
 endif; // add_agent_contact_info
@@ -565,7 +565,7 @@ function favethemes_register_required_plugins() {
 			'force_deactivation' 	=> false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins
 			'external_url' 			=> '', // If set, overrides default API URL and points to an external URL
 		),
-		
+
 		array(
 			'name'     				=> 'Revolution Slider', // The plugin name
 			'slug'     				=> 'revslider', // The plugin slug (typically the folder name)
