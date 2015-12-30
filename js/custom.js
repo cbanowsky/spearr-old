@@ -30,11 +30,8 @@ if( !dtGlobals.isMobile ){
 // Tooltip
 //////////////////////////////////////////////
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-	$('#show-inline').tooltip('toggle')
-
+  $("a", '[data-toggle="tooltip"]').tooltip('show')
 })
-
 //////////////////////////////////////////////
 // Organize Menu
 //////////////////////////////////////////////
