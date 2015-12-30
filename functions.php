@@ -441,8 +441,8 @@ function unpress_share_button(){
 	global $ft_option;
 
 	if($ft_option["single_social"]=="1"): ?>
-    <div class="post-sharing-wrap pull-right" data-toggle="tooltip" title="SHARE">
-        <a class="btn-icon btn btn-post-share" id="show-inline" href="#">
+    <div class="post-sharing-wrap pull-right">
+        <a class="btn-icon btn btn-post-share" data-toggle="tooltip" title="SHARE" id="show-inline" href="#">
             <i class="fa fa-plus"></i>
         </a>
     </div>
