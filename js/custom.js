@@ -31,7 +31,7 @@ if( !dtGlobals.isMobile ){
 //////////////////////////////////////////////
 $(function () {
   $('[data-toggle="tooltip"]').tooltip();
-	$('#show-inline').tooltip('show')
+	$('.btn-icon .btn .btn-post-share').tooltip('toggle')
 })
 //////////////////////////////////////////////
 // Organize Menu
