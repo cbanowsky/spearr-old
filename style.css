@@ -25,44 +25,44 @@ Fonts
 
 }
 @font-face {
-	 font-family: "Novecento Sans Wide Medium", sans-serif; 
-	 font-weight:500; 
-	 font-style:normal; 
+	 font-family: "Novecento Sans Wide Medium", sans-serif;
+	 font-weight:500;
+	 font-style:normal;
 }
-@font-face { 
-	font-family: "Lab Grotesque Medium", sans-serif; 
-	font-weight:500; 
-	font-style:normal; 
+@font-face {
+	font-family: "Lab Grotesque Medium", sans-serif;
+	font-weight:500;
+	font-style:normal;
 }
-@font-face { 
-	font-family: "Motel Xenia Regular", sans-serif; 
-	font-size-adjust:0.4; 
-	font-weight:normal; 
-	font-style:normal; 
-	line-height: 40px; 
-	font-size: 40px; 
+@font-face {
+	font-family: "Motel Xenia Regular", sans-serif;
+	font-size-adjust:0.4;
+	font-weight:normal;
+	font-style:normal;
+	line-height: 40px;
+	font-size: 40px;
 }
-@font-face { 
-	font-family: "Lab Grotesque Bold", sans-serif; 
-	font-weight:bold; 
-	font-style:normal; 
+@font-face {
+	font-family: "Lab Grotesque Bold", sans-serif;
+	font-weight:bold;
+	font-style:normal;
 }
-@font-face { 
-	font-family: "Novecento Sans Wide Normal", sans-serif; 
-	font-weight:normal; 
-	font-style:normal; 
+@font-face {
+	font-family: "Novecento Sans Wide Normal", sans-serif;
+	font-weight:normal;
+	font-style:normal;
 }
-@font-face { 
-	font-family: "Eksell Display Medium", serif; 
-	font-weight:normal; 
-	font-style:normal; 
+@font-face {
+	font-family: "Eksell Display Medium", serif;
+	font-weight:normal;
+	font-style:normal;
 }
-@font-face { 
-	font-family: "Motel Xenia Thin", sans-serif; 
-	font-size-adjust:0.4; 
-	font-weight:200; 
-	font-style:normal; 
-	line-height: 40px; 
+@font-face {
+	font-family: "Motel Xenia Thin", sans-serif;
+	font-size-adjust:0.4;
+	font-weight:200;
+	font-style:normal;
+	line-height: 40px;
 	font-size: 40px;
 }
 
@@ -81,44 +81,44 @@ Fonts
 }
 
 @font-face {
-	 font-family: "Novecento Sans Wide Medium", sans-serif; 
-	 font-weight:500; 
-	 font-style:normal; 
+	 font-family: "Novecento Sans Wide Medium", sans-serif;
+	 font-weight:500;
+	 font-style:normal;
 }
-@font-face { 
-	font-family: "Lab Grotesque Medium", sans-serif; 
-	font-weight:500; 
-	font-style:normal; 
+@font-face {
+	font-family: "Lab Grotesque Medium", sans-serif;
+	font-weight:500;
+	font-style:normal;
 }
-@font-face { 
-	font-family: "Motel Xenia Regular", sans-serif; 
-	font-size-adjust:0.4; 
-	font-weight:normal; 
-	font-style:normal; 
-	line-height: 40px; 
-	font-size: 40px; 
+@font-face {
+	font-family: "Motel Xenia Regular", sans-serif;
+	font-size-adjust:0.4;
+	font-weight:normal;
+	font-style:normal;
+	line-height: 40px;
+	font-size: 40px;
 }
-@font-face { 
-	font-family: "Lab Grotesque Bold", sans-serif; 
-	font-weight:bold; 
-	font-style:normal; 
+@font-face {
+	font-family: "Lab Grotesque Bold", sans-serif;
+	font-weight:bold;
+	font-style:normal;
 }
-@font-face { 
-	font-family: "Novecento Sans Wide Normal", sans-serif; 
-	font-weight:normal; 
-	font-style:normal; 
+@font-face {
+	font-family: "Novecento Sans Wide Normal", sans-serif;
+	font-weight:normal;
+	font-style:normal;
 }
-@font-face { 
-	font-family: "Eksell Display Medium", serif; 
-	font-weight:normal; 
-	font-style:normal; 
+@font-face {
+	font-family: "Eksell Display Medium", serif;
+	font-weight:normal;
+	font-style:normal;
 }
-@font-face { 
-	font-family: "Motel Xenia Thin", sans-serif; 
-	font-size-adjust:0.4; 
-	font-weight:200; 
-	font-style:normal; 
-	line-height: 40px; 
+@font-face {
+	font-family: "Motel Xenia Thin", sans-serif;
+	font-size-adjust:0.4;
+	font-weight:200;
+	font-style:normal;
+	line-height: 40px;
 	font-size: 40px;
 }
 
@@ -140,7 +140,7 @@ Modifications
 }
 
 .list-unstyled li {
-    
+
     /*border-bottom: 2px solid #000;*/
     margin-bottom: 20px;
 }
@@ -189,7 +189,7 @@ Colors
 a, .navbar-nav a, .secondary-nav .nav .open>a, .secondary-nav .nav .open>a:hover, .secondary-nav .nav .open>a:focus, .secondary-nav .dropdown:hover, .secondary-nav .dropdown:hover > a, .post-content-holder h3 a, .post-author a, .share-tool, .action-tool, .homepage-interviews-carousel-arrows > a, .post-meta a, .article_nav h3, .article_nav em, .video-container .component_next-article:hover i, .video-container .component_previous-article:hover i, .video-container .btn-icon:hover i, .related-video-carousel-arrows > a, .related-gallery-carousel-arrows > a, .post-title a, .pagination > li > a, .pagination > li > span, .component_next-article, .component_previous-article, .component_next-article i, .component_previous-article i, .component_next-article.inactive a:hover, .component_previous-article.inactive a:hover {
 	color: #000;
 }
-.btn-default, .nav>li>a:hover, .nav>li>a:focus, .navbar-search input[type="text"]:focus, .primary-nav .dropdown-menu, .primary-nav .dropdown:hover, .primary-nav .dropdown:hover > a, .navbar-nav a.dropdown-post-title, .sub-links a, .page-nav a, .dropdown-menu>li>a:hover, .nav-social a, .image-holder .hover, .tag-holder a, .icon-post-holder, .blocks .post-content-holder a, .blocks .post-content-holder h3 a:hover, .mosaic .post-content-holder a, .mosaic .post-content-holder h3 a:hover, .category-box, .category-box p a, .home-rotator-navigation #prev, .home-rotator-navigation #next, .homepage-gallery-carousel-navigation h3, .homepage-gallery-carousel-arrows > a, .gallery-carousel-slide-title, .interviews-carousel-slide-title, .interviews-tools .action-tool, .interviews-tools .share-tool, .interview-more, .interview-more:hover, .interviews-slide-sub-title a, .homepage-interviews-carousel-arrows > a:hover, #footer h3.widget-title, .newsletter-subscribe input.form-control, .newsletter-subscribe button[type="submit"], #footer a, #footer .twitter-item .fa-twitter, .tags-wrap a, .tags a, .tagcloud a, .btn-post-share:hover, .video-container .component_next-article i, .video-container .component_previous-article i, .video-container .btn-icon:hover, .video-container .component_next-article, .video-container .component_previous-article, .video-container .btn-icon, .video-container .component_next-article:hover, .video-container .component_previous-article:hover, .video-container .btn-icon:hover, .videos-carousel-slide-title, .galleries-carousel-slide-title, .video-slide-wrap:hover .videos-slide-category, .gallery-slide-wrap:hover .galleries-slide-category, .galleries-slide-sub-title a, .related-gallery-carousel-arrows > a:hover, .videos-slide-sub-title a, .related-video-carousel-arrows > a:hover, .latest-post-gallery-carousel-prev, .latest-post-gallery-carousel-next, .featured-post-gallery-carousel-prev, .featured-post-gallery-carousel-next, .latest-interviews-carousel-prev, .latest-interviews-carousel-next, #share-page, #share-page a, .iosSlider .slider .item .inner .text1 span, .slides .item .inner .text1 span, .flexslider span.category-name a, .flex-direction-nav a, .ei-title h2, .flex-direction-nav a:before, .component_next-article.active:hover i, .component_previous-article.active:hover i, .post-category a:hover, .post a:hover, .btn-icon:hover, .comment-reply-link:hover, .tags-wrap a:hover, .tags a:hover, a.read-more:hover, .share-page a:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus, #today, #footer .tagcloud a:hover, .form-submit #submit, .home-rotator-navigation #prev, .home-rotator-navigation #next, .ei-slider-thumbs li.ei-slider-element, a:hover .gallery-carousel-slide-title, .interview-slide-wrap:hover .interviews-carousel-slide-title, .video-slide-wrap:hover .videos-carousel-slide-title, .gallery-slide-wrap:hover .galleries-carousel-slide-title, .latest-post-gallery-carousel-prev:hover, .latest-post-gallery-carousel-next:hover, .latest-interviews-carousel-prev:hover, .latest-interviews-carousel-next:hover, .featured-post-gallery-carousel-prev:hover, .featured-post-gallery-carousel-next:hover, #footer .latest-post-gallery-carousel-prev:hover, #footer .latest-post-gallery-carousel-next:hover, #footer .latest-interviews-carousel-prev:hover, #footer .latest-interviews-carousel-next:hover, #footer .featured-post-gallery-carousel-prev:hover, #footer .featured-post-gallery-carousel-next:hover, #galleries-carousel-prev:hover, #galleries-carousel-next:hover, .home-rotator-navigation #prev:hover, .home-rotator-navigation #next:hover, .newsletter-subscribe button[type="submit"]:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus, .page-numbers.current, #secondary-nav > .menu-item a:hover, .instagram-slider-prev, .instagram-slider-next, .instagram-slider-prev:hover, .instagram-slider-next:hover, .btn.btn-default:hover {
+.btn-default, .nav>li>a:hover, .nav>li>a:focus, .navbar-search input[type="text"]:focus, .primary-nav .dropdown-menu, .primary-nav .dropdown:hover, .primary-nav .dropdown:hover > a, .navbar-nav a.dropdown-post-title, .sub-links a, .page-nav a, .dropdown-menu>li>a:hover, .nav-social a, .image-holder .hover, .tag-holder a, .icon-post-holder, .blocks .post-content-holder a, .blocks .post-content-holder h3 a:hover, .mosaic .post-content-holder a, .mosaic .post-content-holder h3 a:hover, .category-box, .category-box p a, .home-rotator-navigation #prev, .home-rotator-navigation #next, .homepage-gallery-carousel-navigation h3, .homepage-gallery-carousel-arrows > a, .gallery-carousel-slide-title, .interviews-carousel-slide-title, .interviews-tools .action-tool, .interviews-tools .share-tool, .interview-more, .interview-more:hover, .interviews-slide-sub-title a, .homepage-interviews-carousel-arrows > a:hover, #footer h3.widget-title, .newsletter-subscribe input.form-control, .newsletter-subscribe button[type="submit"], #footer a, #footer .twitter-item .fa-twitter, .tags-wrap a, .tags a, .tagcloud a, .video-container .component_next-article i, .video-container .component_previous-article i, .video-container .btn-icon:hover, .video-container .component_next-article, .video-container .component_previous-article, .video-container .btn-icon, .video-container .component_next-article:hover, .video-container .component_previous-article:hover, .video-container .btn-icon:hover, .videos-carousel-slide-title, .galleries-carousel-slide-title, .video-slide-wrap:hover .videos-slide-category, .gallery-slide-wrap:hover .galleries-slide-category, .galleries-slide-sub-title a, .related-gallery-carousel-arrows > a:hover, .videos-slide-sub-title a, .related-video-carousel-arrows > a:hover, .latest-post-gallery-carousel-prev, .latest-post-gallery-carousel-next, .featured-post-gallery-carousel-prev, .featured-post-gallery-carousel-next, .latest-interviews-carousel-prev, .latest-interviews-carousel-next, #share-page, #share-page a, .iosSlider .slider .item .inner .text1 span, .slides .item .inner .text1 span, .flexslider span.category-name a, .flex-direction-nav a, .ei-title h2, .flex-direction-nav a:before, .component_next-article.active:hover i, .component_previous-article.active:hover i, .post-category a:hover, .post a:hover, .btn-icon:hover, .comment-reply-link:hover, .tags-wrap a:hover, .tags a:hover, a.read-more:hover, .share-page a:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus, #today, #footer .tagcloud a:hover, .form-submit #submit, .home-rotator-navigation #prev, .home-rotator-navigation #next, .ei-slider-thumbs li.ei-slider-element, a:hover .gallery-carousel-slide-title, .interview-slide-wrap:hover .interviews-carousel-slide-title, .video-slide-wrap:hover .videos-carousel-slide-title, .gallery-slide-wrap:hover .galleries-carousel-slide-title, .latest-post-gallery-carousel-prev:hover, .latest-post-gallery-carousel-next:hover, .latest-interviews-carousel-prev:hover, .latest-interviews-carousel-next:hover, .featured-post-gallery-carousel-prev:hover, .featured-post-gallery-carousel-next:hover, #footer .latest-post-gallery-carousel-prev:hover, #footer .latest-post-gallery-carousel-next:hover, #footer .latest-interviews-carousel-prev:hover, #footer .latest-interviews-carousel-next:hover, #footer .featured-post-gallery-carousel-prev:hover, #footer .featured-post-gallery-carousel-next:hover, #galleries-carousel-prev:hover, #galleries-carousel-next:hover, .home-rotator-navigation #prev:hover, .home-rotator-navigation #next:hover, .newsletter-subscribe button[type="submit"]:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus, .page-numbers.current, #secondary-nav > .menu-item a:hover, .instagram-slider-prev, .instagram-slider-next, .instagram-slider-prev:hover, .instagram-slider-next:hover, .btn.btn-default:hover {
 	color: #000;
 }
 .tagcloud a:hover, .tag-holder a:hover, .tag-holder a, .post-meta a:hover, .tags-wrap a, .interviews-slide-sub-title a:hover, .video-container .btn-post-share i, .videos-slide-sub-title a:hover, .post-author a:hover, #gallery-carousel-next, #gallery-carousel-prev {
@@ -203,7 +203,7 @@ a, .navbar-nav a, .secondary-nav .nav .open>a, .secondary-nav .nav .open>a:hover
 	background-color: #fff;
 	font-family: "kenzoregular";
 }
-.btn-default, .nav>li>a:hover, .nav>li>a:focus, .navbar-search input[type="text"]:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus, .primary-nav .dropdown-menu, .primary-nav .dropdown:hover, .primary-nav .dropdown:hover > a, .secondary-nav, .category-box, .slide, #homepage-gallery-carousel, #homepage-interviews-carousel-navigation-wrapper .cycle-carousel-wrap, .footer-2-wrapper, .post-image .btn-icon:hover, .tags-wrap a, .tags a, .tagcloud a, .btn-post-share:hover, .component_next-article.active:hover, .component_previous-article.active:hover, .video-container, .video-container .component_next-article, .video-container .component_previous-article, .video-container .btn-icon, #related-video-carousel-navigation-wrapper .cycle-carousel-wrap, #related-gallery-carousel-navigation-wrapper .cycle-carousel-wrap, .sliderContainer, .ei-slider-thumbs li a, .alter_img, tags-wrap a {
+.btn-default, .nav>li>a:hover, .nav>li>a:focus, .navbar-search input[type="text"]:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus, .primary-nav .dropdown-menu, .primary-nav .dropdown:hover, .primary-nav .dropdown:hover > a, .secondary-nav, .category-box, .slide, #homepage-gallery-carousel, #homepage-interviews-carousel-navigation-wrapper .cycle-carousel-wrap, .footer-2-wrapper, .post-image .btn-icon:hover, .tags-wrap a, .tags a, .tagcloud a, .component_next-article.active:hover, .component_previous-article.active:hover, .video-container, .video-container .component_next-article, .video-container .component_previous-article, .video-container .btn-icon, #related-video-carousel-navigation-wrapper .cycle-carousel-wrap, #related-gallery-carousel-navigation-wrapper .cycle-carousel-wrap, .sliderContainer, .ei-slider-thumbs li a, .alter_img, tags-wrap a {
 	background: #f9f9f9;
 	background-color: #f9f9f9;
 }
@@ -1063,9 +1063,9 @@ Homepage Top Carousel
 	overflow: hidden;
 }
 #revolution-slider-container-full {
-	
+
 	margin-top: -26px;
-	
+
 }
 #home-rotator .cycle-slideshow, #home-rotator .slide {
 	width: 968px;
@@ -1604,7 +1604,7 @@ Post
 	position: absolute;
 	top: 0;
 	left: 1;
-	border: none;	
+	border: none;
 }
 .post-image .btn-icon i {
 	position: relative;
@@ -2413,7 +2413,7 @@ Flickr Widget
 }
 /*========================================================
 
-Custom WordPress Widgets 
+Custom WordPress Widgets
 
 ==========================================================*/
 
@@ -2516,7 +2516,7 @@ Custom WordPress Widgets
 	font-style: italic;
 	font-size: 12px;
 }
-/* Widget About */	
+/* Widget About */
 
 .widget_unpress-about-site ul {
 	padding: 0;
@@ -2819,7 +2819,7 @@ By Waqas
 	width: 100% !important;
 }
 
-/* 
+/*
 
  * Custom Gallery
 
@@ -3491,7 +3491,7 @@ a.jm-post-like:hover, a.jm-post-like:active, a.jm-post-like:focus, a.liked:hover
     padding: 5px 15px;
     position: absolute;
     width: 100%;
-	
+
 	transition:all 0.5s ease-in-out;
 }
 .instagram-overlay .slide:hover .unpress-instagram-datacontainer{
@@ -3499,7 +3499,7 @@ a.jm-post-like:hover, a.jm-post-like:active, a.jm-post-like:focus, a.liked:hover
 }
 .instagram-overlay .unpress-instagram-wrap .unpress-instagram-datacontainer .unpress-instagram-desc { line-height: normal; color: #FFF;  margin-top: 5px; margin-bottom: 5px; display: block; }
 .instagram-overlay .unpress-instagram-wrap .unpress-instagram-datacontainer .unpress-instagram-time { width: 40%; float:right; text-align: right; }
-.instagram-overlay .unpress-instagram-wrap .unpress-instagram-datacontainer .unpress-instagram-username a { color: #FFF !important; text-decoration: none; font-weight: bold; } 
+.instagram-overlay .unpress-instagram-wrap .unpress-instagram-datacontainer .unpress-instagram-username a { color: #FFF !important; text-decoration: none; font-weight: bold; }
 
 /* Instagram Thumbs*/
 ul.unpress-instagram-thumbnails{
@@ -3863,7 +3863,7 @@ p{font-size:14px !important;margin:0
 	-moz-transition: all .2s ease-in-out 0;
 	-ms-transition: all .2s ease-in-out 0;
 	-o-transition: all .2s ease-in-out 0;
-	transition: all .2s ease-in-out 0;	
+	transition: all .2s ease-in-out 0;
 }
 .slide-button:hover {
 	color: #555;
@@ -4036,7 +4036,7 @@ a:focus {
 	display: table-cell;
 	vertical-align: middle;
 	width: auto;
-	white-space: nowrap;	
+	white-space: nowrap;
 }
 .mobile-menu-top .logo a {
 	display: inline-block;
