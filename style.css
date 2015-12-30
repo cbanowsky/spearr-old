@@ -443,6 +443,12 @@ Buttons
 	height: 44px;
 	border: 1px solid #000;
 }
+.share-me {
+  padding: 10px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #000;
+}
 .btn-default {
 	text-transform: uppercase;
 	padding: 10px 20px;
