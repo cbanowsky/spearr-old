@@ -1,3 +1,4 @@
+
 <?php
 /**
  * UnPress functions and definitions
@@ -441,8 +442,8 @@ function unpress_share_button(){
 	
 	if($ft_option["single_social"]=="1"): ?>
     <div class="post-sharing-wrap pull-right">
-        <a class="btn-icon btn btn-post-share" id="show-inline" href="#">
-            <i class="fa fa-reply"></i>
+        <a class="btn-icon btn btn-post-share" id="show-inline" data-toggle="tooltip" title="SHARE" href="#">
+            <i class="fa fa-plus"></i>
         </a>
     </div>
     <?php endif;
