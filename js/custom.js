@@ -30,8 +30,10 @@ if( !dtGlobals.isMobile ){
 // Tooltip
 //////////////////////////////////////////////
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip();
-	$('a').tooltip()
+  $('[data-toggle="tooltip"]').mouseenter(function(event){
+	.tooltip({
+		trigger: 'manual'});
+	})
 })
 //////////////////////////////////////////////
 // Organize Menu
