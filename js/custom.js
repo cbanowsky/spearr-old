@@ -30,9 +30,7 @@ if( !dtGlobals.isMobile ){
 // Tooltip
 //////////////////////////////////////////////
 $(function () {
-  $('[data-toggle="tooltip"]').mouseenter(function(event){
-	 tooltip({
-		trigger: 'manual'});
+  $('[data-toggle="tooltip"]').tooltip()
 	})
 })
 //////////////////////////////////////////////
