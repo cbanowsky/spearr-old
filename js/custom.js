@@ -30,7 +30,7 @@ if( !dtGlobals.isMobile ){
 // Tooltip
 //////////////////////////////////////////////
 $(function () {
-  $("a", '[data-toggle="tooltip"]').tooltip('show')
+  $('[data-toggle="tooltip"]').tooltip('show')
 })
 //////////////////////////////////////////////
 // Organize Menu
