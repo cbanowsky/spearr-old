@@ -30,8 +30,8 @@ if( !dtGlobals.isMobile ){
 // Tooltip
 //////////////////////////////////////////////
 $(function () {
-  $('[data-toggle="popover"]').popover('show');
-	$('.btn').popover({
+  $('[data-toggle="tooltip"]').popover('show');
+	$('.btn-icon').popover({
 		selector: 'body'
 	});
 })
