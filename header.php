@@ -102,13 +102,13 @@ else:
 endif;
 ?>
 <body <?php body_class($body_class); ?>>
-
+<!--
 <script type="text/javascript">
 WebFontConfig = { fontdeck: { id: '57962' } };
 
 (function() {
   var wf = document.createElement('script');
-  wf.src = ('https:' == document.location.protocol ?' 'https' : 'http') +
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
   '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
   wf.type = 'text/javascript';
   wf.async = 'true';
@@ -116,7 +116,7 @@ WebFontConfig = { fontdeck: { id: '57962' } };
   s.parentNode.insertBefore(wf, s);
 })();
 </script>
-
+-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
