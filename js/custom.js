@@ -31,7 +31,7 @@ if( !dtGlobals.isMobile ){
 //////////////////////////////////////////////
 $(function () {
   $('[data-toggle="tooltip"]').popover('show');
-	$('.btn-icon').popover({
+	$('.btn-icon').tooltip({
 		selector: 'body'
 	});
 })
