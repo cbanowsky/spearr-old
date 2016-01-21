@@ -1,4 +1,3 @@
-
 <?php
 /**
  * UnPress functions and definitions
@@ -44,14 +43,14 @@ function unpress_setup() {
 
 	// Enable support for Post Thumbnails, and declare two sizes.
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 600, 600, true );
+	set_post_thumbnail_size( 600, 600, false );
 	add_image_size( 'masonry-size', 434, 9999);
 	add_image_size( 'mosaic-size', 610, 610, true );
 	add_image_size( 'block-size', 432, 432, true );
 	//add_image_size( 'gallery-carousel', 320, 320, true );
 	add_image_size( 'video-related', 316, 316, true );
-	add_image_size( 'gallery-img', 418, 418, false );
-	add_image_size( 'gallery-single', 365, 500, false );
+	//add_image_size( 'gallery-img', 418, 418, false );
+	//add_image_size( 'gallery-single', 365, 500, false );
 	add_image_size( 'interview-carousel', 327, 450, true );
 	add_image_size( 'interview-img', 450, 9999);
 	add_image_size( 'widget-slider', 580, 580, true );
@@ -59,8 +58,8 @@ function unpress_setup() {
 	// add_image_size( 'menu-size', 400, 225, true );
 	add_image_size( 'grid-style-1', 833, 540, true );
 	add_image_size('mosaic-size-large', 823, 823, true);
-	add_image_size('mosaic-size-small', 397, 397, true);
-	add_image_size('ubermenu-size', 300, 300, true);
+	add_image_size('mosaic-size-small', 397, 397, false);
+	add_image_size('ubermenu-size', 300, 300, false);
 
 	// This theme uses wp_nav_menu() in one locations.
 	register_nav_menus( array(

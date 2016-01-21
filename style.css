@@ -3848,8 +3848,8 @@ p{font-size:14px !important;margin:0
 	text-align: center;
 }
 .gallery-image-slider .slide img {
-	max-width: 75%;
-	width: inherit;
+	max-width: 100%;
+	width: auto;
 	height: auto;
 }
 .gallery-image-slider .post-image {
