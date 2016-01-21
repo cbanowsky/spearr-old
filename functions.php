@@ -57,7 +57,7 @@ function unpress_setup() {
 	add_image_size( 'iosslider', 968, 545, true );
 	// add_image_size( 'menu-size', 400, 225, true );
 	add_image_size( 'grid-style-1', 833, 540, true );
-	add_image_size('mosaic-size-large', 823, 823, true);
+	add_image_size('mosaic-size-large', 826, 826, false);
 	add_image_size('mosaic-size-small', 397, 397, false);
 	add_image_size('ubermenu-size', 300, 300, false);
 
