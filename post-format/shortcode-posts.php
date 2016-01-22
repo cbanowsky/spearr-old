@@ -4,7 +4,7 @@
             <a href="<?php the_permalink(); ?>">
             <?php
             if (has_post_thumbnail()) {
-                $image_link = spearr_aq_resize($post->ID, 400, 400, true);
+                $image_link = spearr_aq_resize($post->ID, 400, 400, false);
                 echo '<img src="' . $image_link . '" title="' . get_the_title() . '">';
             } else { ?>
                 <img class="alter_img" src="<?php echo get_template_directory_uri(); ?>/images/pixel.gif" alt="<?php the_title(); ?>" />
