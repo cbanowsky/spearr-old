@@ -52,9 +52,9 @@ query_posts( $args );
         <?php
 		if ( get_sub_field( 'latest_posts_sidebar' ) == 'disable' ):
 			
-			echo '<div class="col-lg-12 col-md-6 col-sm-12">';
+			echo '<div class="col-lg-12 col-md-12 col-sm-12">';
 		else:
-			echo '<div class="col-lg-12 col-md-6 col-sm-12">';
+			echo '<div class="col-lg-12 col-md-12 col-sm-12">';
 		endif;
 		?>
 			<div class="row post-row">
