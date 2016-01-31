@@ -194,7 +194,7 @@ global $ft_option;
                         echo '<div class="gallery-image-slider">';
                             echo '<ul class="slides">';
                                 foreach ($galleries as $gallery) {
-                                    $image_link = spearr_aq_resize(null, 380, 600, false, $gallery['image']);
+                                    $image_link = $gallery['image'];
                                     ?>
                                     <?php if ($image_loop == 0): ?>
                                     <li class="slide active">
